@@ -2,28 +2,26 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com> modified by Chris Butera",
   "dependencies": {
     "gatsby": "^1.9.207",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --double-quote --write \"src/**/*.js\"",
+    "format": "prettier  --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint . --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint ."
+      "pre-commit": "yarn run format && yarn run lint"
     }
   },
   "devDependencies": {
