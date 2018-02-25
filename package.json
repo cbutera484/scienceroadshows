@@ -1,15 +1,18 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "chris-butera-resume",
+  "description": "Chris Butera Resume Package",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com> modified by Chris Butera",
+  "author": "Chris Butera",
   "dependencies": {
     "gatsby": "^1.9.207",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "react-bootstrap": "^0.32.1",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
