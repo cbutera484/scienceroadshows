@@ -4,7 +4,8 @@ import Helmet from "react-helmet";
 
 import Header from "../components/Header";
 import "./index.css";
-import "./styles.css";
+import "../../node_modules/skeleton-css/css/normalize.css";
+import "../../node_modules/skeleton-css/css/skeleton.css";
 
 const TemplateWrapper = ({ children }) => 
 	<div>
