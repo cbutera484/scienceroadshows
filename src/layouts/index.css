@@ -1,7 +1,12 @@
-ul {
-    margin-bottom: 0
+ul,
+li {
+    margin: 0
 }
 
 li {
     list-style-type: none;
+}
+
+p {
+    font-size: 18px
 }

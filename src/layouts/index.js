@@ -1,9 +1,11 @@
+/* global graphql */
+
+import "../../node_modules/skeleton-css/css/normalize.css";
+import "../../node_modules/skeleton-css/css/skeleton.css";
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import Header from "../components/Header";
-import "../../node_modules/skeleton-css/css/normalize.css";
-import "../../node_modules/skeleton-css/css/skeleton.css";
 import "./index.css";
 
 const TemplateWrapper = ({ children }) => 
@@ -22,7 +24,7 @@ const TemplateWrapper = ({ children }) =>
 		<div
 			style={{
 				margin: `0 auto`,
-				maxWidth: 960,
+				maxWidth: 1366,
 				padding: `0px 1.0875rem 1.45rem`,
 				paddingTop: 0
 			}}

@@ -1,13 +1,53 @@
+/* global graphql */
+
 import React from "react";
 import Link from "gatsby-link";
+import styled from "styled-components";
+import Img from "react-image";
+import HeadShotImage from "../img/headshot.jpg";
+
+const H3 = styled.h3`
+  text-align: center;
+  margin-top: 25px;
+`;
+
+const HeadShot = styled( Img )`
+  border-radius: 500px;
+  background-color: #ccc;
+  max-width: 35%;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 3px 7px 14px #666;
+`;
+
+const Container = styled.div`
+  padding: 20px;
+`;
 
 const IndexPage = () => 
-	<div className="container">
-		<h1>{`Christopher Butera's Resume`}</h1>
-		<p>Welcome to your new Gatsby site.</p>
-		<p>Now go build something great.</p>
-		<Link to="/page-2/">Go to page 2</Link>
-	</div>
+	<Container className="container">
+		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
+		<H3>{`Front End Engineer`}</H3>
+		<p>
+      Hi, I'm Chris. A Front End Engineer based in New York with over 10 years
+      professional experience building highly scalable, award winnings websites.
+		</p>
+		<p>
+      My current toolset includes{` `}
+			<strong>
+        Javascript (ES6), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
+        VS Code
+			</strong>
+      but I also have experience with PHP (Laravel) and various CMSs including
+      Joomla, Wordpress, and Drupal.
+		</p>
+		<p>
+      Visit my <Link to="/portfolio/">Portfolio</Link> to view some of my work
+      or <Link to="/contact/">click to get in touch!</Link>
+		</p>
+	</Container>
 
 ;
 

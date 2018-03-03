@@ -3,7 +3,7 @@ import styled from "styled-components";
 import MainNavLink from "./nav-link";
 import media from "../../utils/style-utils";
 
-const StyledMainNavUL = styled.ul`
+const MainNavUL = styled.ul`
   display: flex;
   justify-content: flex-end;
   margin: 0;
@@ -14,11 +14,12 @@ class MainNav extends React.Component {
 	render () {
 		return (
 			<nav>
-				<StyledMainNavUL>
-					<MainNavLink text="About" />
-					<MainNavLink text="Portfolio" />
-					<MainNavLink text="Contact" />
-				</StyledMainNavUL>
+				<MainNavUL>
+					<MainNavLink text="About" href="/about" />
+					<MainNavLink text="Resume" href="/resume" />
+					<MainNavLink text="Portfolio" href="/portfolio" />
+					<MainNavLink text="Contact" href="/contact" />
+				</MainNavUL>
 			</nav>
 		);
 	}

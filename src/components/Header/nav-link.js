@@ -1,18 +1,26 @@
 import React from "react";
-
+import PropTypes from "prop-types";
+import media from "../../utils/style-utils";
 import styled from "styled-components";
+import Link from "gatsby-link";
 
-const StyledLink = styled.li`
+const NavLink = styled( Link )`
   padding: 1rem;
   color: #fff;
-  fontsize: calc(1vw + 1vh + 1vmin);
+  text-decoration: none;
+  font-size: calc(1vw + 1vh + 0.3vmin);
+  ${media.phone`padding: 0`};
 `;
 
 class MainNavLink extends React.Component {
 	render () {
-		return <StyledLink>{this.props.text}</StyledLink>;
+		return <NavLink to={this.props.href}>{this.props.text}</NavLink>;
 	}
 }
+
+MainNavLink.propTypes = {
+	text: PropTypes.string
+};
 
 // const MainNavLink = props =>
 // 	<li
