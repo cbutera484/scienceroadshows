@@ -1,0 +1,54 @@
+{
+  "portfolioItems": [
+    {
+      "title": "PCH Keno",
+      "description":
+        "Users pick numbers from 5 game cards with live drawings every 20 minutes where users match numbers for cash prizes.  Users also unlock various instant win scratch cards for playing cards and watching video ads.  For this project, we used a custom MVC js framework that handled gameplay, live drawings, and the overall user flow while making API calls to the backend to handle sending and receiving gameplay data.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention  ",
+      "logo": "keno.jpg",
+      "platforms": "Desktop, Mobile",
+      "technology":
+        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
+      "url": "http://keno.pch.com"
+    },
+    {
+      "title": "PCH Lotto",
+      "description":
+        "Users play lotto cards for a daily drawing to win cash prizes and unlock instant win scratch cards.  Built templates to streamline building of multiple lotto cards with complex animations on a monthly basis.  Implemented many shared and 3rd party systems responsible for user registration, messaging, tracking, and retention     ",
+      "logo": "lotto.jpg",
+      "platforms": "Desktop, Mobile",
+      "technology":
+        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), SEO",
+      "url": "http://lotto.pch.com"
+    },
+    {
+      "title": "Lowe's 2011 Annual Report",
+      "description":
+        "Worked closely with client and designer to develop a fun, interactive annual report with complex parallax transitions on a very aggressive deadline.        ",
+      "logo": "lowes2011.jpg",
+      "platforms": "Desktop",
+      "technology": "Javascript, jQuery, html/css",
+      "url":
+        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_11/index.html"
+    },
+    {
+      "title": "Lowe's 2012 Annual Report",
+      "description":
+        "Interactive annual report with complex intro animation which builds a house of out 50+ tiny icons.  ",
+      "logo": "lowes2012.jpg",
+      "platforms": "Desktop",
+      "technology": "Javascript, jQuery, html/css",
+      "url":
+        "https://www.lowes.com/AboutLowes/AnnualReports/annual_report_12/index.html"
+    },
+    {
+      "title": "McCormick 2011 Annual Report",
+      "description":
+        "Interactive annual report built under a very tight deadline.  ",
+      "logo": "mccormick.jpg",
+      "platforms": "Desktop",
+      "technology": "Javascript, jQuery, html/css",
+      "url":
+        "http://media.corporate-ir.net/media_files/irol/65/65454/reports/MKC_IAR11/export8/index.html"
+    }
+  ]
+}

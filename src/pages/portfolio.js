@@ -1,9 +1,11 @@
 import React from "react";
+import PortfolioEntries from "../components/Portfolio/portfolio-entries";
 
 const PortfolioPage = () => 
 	<div>
-		<h1>Portfolio</h1>
-		<p>Welcome to Portfolio</p>
+		<h2>Portfolio</h2>
+
+		<PortfolioEntries />
 	</div>
 
 ;
