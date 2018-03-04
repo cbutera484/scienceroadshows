@@ -1,9 +1,9 @@
 import React from "react";
 import ResumeEntries from "../components/Resume/resume-entries";
 
-const ResumePage = props => 
+const ResumePage = () => 
 	<div>
-		<h1>Resume</h1>
+		<h2>Resume</h2>
 
 		<ResumeEntries />
 	</div>

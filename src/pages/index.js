@@ -35,12 +35,13 @@ const IndexPage = () =>
         Javascript (ES6), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
         VS Code
 			</strong>
-      but I also have experience with PHP (Laravel) and various CMSs including
-      Joomla, Wordpress, and Drupal.
+			{` `}but I also have experience with PHP (Laravel) and various CMSs
+      including Joomla, Wordpress, and Drupal.
 		</p>
 		<p>
-      Visit my <Link to="/portfolio/">Portfolio</Link> to view some of my work
-      or <Link to="/contact/">click to get in touch!</Link>
+      Check out my <Link to="/resume">Resume</Link> to view my experience,{` `}
+			<Link to="/portfolio">Portfolio</Link> to view some of my work or{` `}
+			<Link to="/contact">click to get in touch!</Link>
 		</p>
 	</div>
 

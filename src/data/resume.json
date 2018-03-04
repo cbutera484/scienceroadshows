@@ -2,43 +2,61 @@
   "resumeItems": [
     {
       "title": "Publisher's Clearing House",
-      "Position": "Senior Front End Engineer",
+      "location": "Jericho, NY",
+      "position": "Senior Front End Engineer",
       "year": "2013-Present",
-      "description": "PCH Description goes here...",
+      "description":
+        "Scalable mobile and desktop game websites where millions of users play to win cash and prizes.  Collaborated with marketing and design teams in an Agile environment to develop a fun, engaging user experience while meeting aggressive deadlines.      ",
       "logo": "pch.jpg",
       "technology":
-        "Javascript (ES6), MVC, Webpack, Gulp, Git, HTML5/CSS3, PHP (Laravel), Responsive"
+        "Javascript (ES6), MVC, Webpack, Gulp, Git, ESLint, Prettier, HTML5/CSS3, PHP (Laravel), Responsive, SEO"
     },
     {
       "title": "Curran & Connors",
-      "Position": "Senior Web Developer",
+      "location": "Hauppague, NY",
+      "position": "Senior Web Developer",
       "year": "2011-2013",
-      "description": "C&C Description goes here...",
+      "description":
+        "Websites and Online Annual Reports for well known clients such as Lowe's, McCormick, and NYCB featuring complex animations and designs.  Built flexible, content managed websites using Drupal to cater to client needs and changes throughout the process.",
       "logo": "c&c.png",
-      "technology": "Javascript, PHP, Drupal, JQuery, HTML5/CSS3"
+      "technology": "Javascript, PHP, Drupal, JQuery, HTML5/CSS3, SEO"
     },
     {
-      "title": "Random House",
-      "Position": "Web Developer",
+      "title": "Random House Publishing",
+      "location": "New York, NY",
+      "position": "Web Developer",
       "year": "2008-2011",
-      "description": "RH Description goes here...",
+      "description":
+        "Built e-commerce and marketing websites for the world's largest publisher.  Developed HTML email campaigns and designed Flash banner ads.",
       "logo": "random-house.png",
-      "technology": "Javascript, PHP, Wordpress, HTML/CSS, MySQL, Flash"
+      "technology": "Javascript, PHP, Wordpress, HTML/CSS, MySQL, Flash, SEO"
     },
     {
       "title": "Railex/Andrew and Sons LLC",
-      "Position": "Web Designer/Developer",
+      "location": "Riverhead, NY",
+      "position": "Web Designer/Developer",
       "year": "2006-2008",
-      "description": "Andrew and Sons Description goes here",
+      "description":
+        "Designed and developed various marketing websites for the company's multiple brands.  Designed and built company's internal website.  ",
       "logo": "railex.png",
-      "technology": "PHP, Javascript, HTML/CSS, Photoshop, Flash"
+      "technology": "PHP, Javascript, HTML/CSS, Photoshop, Flash, SEO"
+    },
+    {
+      "title": "Binghamton University - SUNY",
+      "position": "Bachelors in Computer Science",
+      "year": "2002-2006",
+      "description": "",
+      "logo": "binghamton.jpg",
+      "technology":
+        "C++, Java, Assembly, Javascript, HTML, CSS, Algorithms, Network Security, Networking"
     },
     {
       "title": "RapidCars.com",
-      "Position": "Webmaster/Owner",
+      "position": "Webmaster/Owner",
       "year": "1999-2016",
-      "description": "RapidCars description goes here",
-      "logo": "pch.jpg",
+      "description":
+        "Hobby site I started in high school featuring high resolution photos, news, and various information on high-end exotic cars such as those from Ferrari, Lamborghini, McLaren, and Porsche.  Received millions of visitors with traffic peaking at 10k users per day.  Built up traffic via SEO, email campaigns, and banner advertising.  Optimized site to earn revenue via advertisements with peak earnings ranging from $1k to $2k per month.  Decided to shutdown in 2016 as the site was no longer able to compete with professional automotive blogs.  ",
+      "logo": "rapidcars.jpg",
       "technology": "Wordpress, HTML, CSS, PHP"
     }
   ]

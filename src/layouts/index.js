@@ -8,7 +8,7 @@ import Header from "../components/Header";
 import "./index.css";
 
 const Container = styled.div`
-  padding: 20px;
+  padding: 20px 0px;
 `;
 
 const TemplateWrapper = ({ children }) => 
