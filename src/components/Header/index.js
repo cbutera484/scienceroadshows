@@ -27,7 +27,7 @@ const H1Link = styled( Link )`
 `;
 
 const Background = styled.div`
-  background: rgb(7, 40, 117);
+  background: hsl(216, 60%, 52%);
   box-shadow: 1px 2px 7px #666;
 `;
 
