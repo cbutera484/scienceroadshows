@@ -1,17 +1,20 @@
-/* global graphql */
-
 import "../../node_modules/skeleton-css/css/normalize.css";
 import "../../node_modules/skeleton-css/css/skeleton.css";
 import React from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
 import Helmet from "react-helmet";
 import Header from "../components/Header";
 import "./index.css";
 
+const Container = styled.div`
+  padding: 20px;
+`;
+
 const TemplateWrapper = ({ children }) => 
 	<div>
 		<Helmet
-			title="Gatsby Default Starter"
+			title="Chris Butera"
 			meta={[
 				{ name: `description`, content: `Portfolio for Christopher Butera` },
 				{
@@ -29,7 +32,7 @@ const TemplateWrapper = ({ children }) =>
 				paddingTop: 0
 			}}
 		>
-			{children()}
+			<Container className="container">{children()}</Container>
 		</div>
 	</div>
 

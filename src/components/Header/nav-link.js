@@ -10,6 +10,9 @@ const NavLink = styled( Link )`
   text-decoration: none;
   font-size: calc(1vw + 1vh + 0.3vmin);
   ${media.phone`padding: 0`};
+  &:hover {
+    color: #c0c0c0;
+  }
 `;
 
 class MainNavLink extends React.Component {
@@ -19,7 +22,8 @@ class MainNavLink extends React.Component {
 }
 
 MainNavLink.propTypes = {
-	text: PropTypes.string
+	text: PropTypes.string,
+	href: PropTypes.string
 };
 
 // const MainNavLink = props =>

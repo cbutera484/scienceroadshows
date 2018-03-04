@@ -1,0 +1,45 @@
+{
+  "resumeItems": [
+    {
+      "title": "Publisher's Clearing House",
+      "Position": "Senior Front End Engineer",
+      "year": "2013-Present",
+      "description": "PCH Description goes here...",
+      "logo": "pch.jpg",
+      "technology":
+        "Javascript (ES6), MVC, Webpack, Gulp, Git, HTML5/CSS3, PHP (Laravel), Responsive"
+    },
+    {
+      "title": "Curran & Connors",
+      "Position": "Senior Web Developer",
+      "year": "2011-2013",
+      "description": "C&C Description goes here...",
+      "logo": "c&c.png",
+      "technology": "Javascript, PHP, Drupal, JQuery, HTML5/CSS3"
+    },
+    {
+      "title": "Random House",
+      "Position": "Web Developer",
+      "year": "2008-2011",
+      "description": "RH Description goes here...",
+      "logo": "random-house.png",
+      "technology": "Javascript, PHP, Wordpress, HTML/CSS, MySQL, Flash"
+    },
+    {
+      "title": "Railex/Andrew and Sons LLC",
+      "Position": "Web Designer/Developer",
+      "year": "2006-2008",
+      "description": "Andrew and Sons Description goes here",
+      "logo": "railex.png",
+      "technology": "PHP, Javascript, HTML/CSS, Photoshop, Flash"
+    },
+    {
+      "title": "RapidCars.com",
+      "Position": "Webmaster/Owner",
+      "year": "1999-2016",
+      "description": "RapidCars description goes here",
+      "logo": "pch.jpg",
+      "technology": "Wordpress, HTML, CSS, PHP"
+    }
+  ]
+}

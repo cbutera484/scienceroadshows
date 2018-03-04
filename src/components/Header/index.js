@@ -18,10 +18,14 @@ const H1 = styled.h1`
 const H1Link = styled( Link )`
   color: #fff;
   text-decoration: none;
+  &:hover {
+    color: #c0c0c0;
+  }
 `;
 
 const Background = styled.div`
   background: hsl(216, 60%, 52%);
+  box-shadow: 1px 2px 7px #666;
 `;
 
 class Header extends React.Component {
