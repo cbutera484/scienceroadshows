@@ -50,7 +50,7 @@ const ResumeEntry = props =>
 	<ResumeEntryContainer className="row">
 		<LeftColumn className="five columns">
 			<Logo
-				src={`img/resume/logos/${props.resumeItem.logo}`}
+				src={`/img/resume/logos/${props.resumeItem.logo}`}
 				alt="{props.resumeItem.title} Logo"
 			/>
 		</LeftColumn>

@@ -54,7 +54,7 @@ const PortfolioEntry = props =>
 			<PortfolioLink target="_blank" href={props.portfolioItem.url}>
 				{` `}
 				<Logo
-					src={`img/portfolio/${props.portfolioItem.logo}`}
+					src={`/img/portfolio/${props.portfolioItem.logo}`}
 					alt="{props.portfolioItem.title} Logo"
 				/>
 			</PortfolioLink>
