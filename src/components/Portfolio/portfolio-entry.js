@@ -71,7 +71,11 @@ const PortfolioEntry = props =>
 				<Technologies>
 					<strong>Technology used:</strong> {props.portfolioItem.technology}
 				</Technologies>
-				<a target="_blank" href={props.portfolioItem.git}>
+				<a
+					rel="noopener noreferrer"
+					target="_blank"
+					href={props.portfolioItem.git}
+				>
 					{props.portfolioItem.git}
 				</a>
 			</div>

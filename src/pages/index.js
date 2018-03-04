@@ -44,7 +44,11 @@ const IndexPage = () =>
 		</p>
 		<p>
       This site built with React and Gatsby. See the source code on{` `}
-			<a target="_blank" href="https://github.com/cbutera484/resume-gatsby">
+			<a
+				rel="noopener noreferrer"
+				target="_blank"
+				href="https://github.com/cbutera484/resume-gatsby"
+			>
         Git
 			</a>
 		</p>
