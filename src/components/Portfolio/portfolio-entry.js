@@ -68,10 +68,12 @@ const PortfolioEntry = props =>
 				</H3>
 				<Platforms>{props.portfolioItem.platforms}</Platforms>
 				<Description>{props.portfolioItem.description}</Description>
-
 				<Technologies>
 					<strong>Technology used:</strong> {props.portfolioItem.technology}
 				</Technologies>
+				<a target="_blank" href={props.portfolioItem.git}>
+					{props.portfolioItem.git}
+				</a>
 			</div>
 		</RightColumn>
 	</PortfolioEntryContainer>

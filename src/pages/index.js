@@ -39,9 +39,14 @@ const IndexPage = () =>
       including Joomla, Wordpress, and Drupal.
 		</p>
 		<p>
-      Check out my <Link to="/resume">Resume</Link> to view my experience,{` `}
-			<Link to="/portfolio">Portfolio</Link> to view some of my work or{` `}
-			<Link to="/contact">click to get in touch!</Link>
+      Check out my <Link to="/resume">Resume</Link> to view my experience or my{` `}
+			<Link to="/portfolio">Portfolio</Link> to view some of my work!
+		</p>
+		<p>
+      This site built with React and Gatsby. See the source code on{` `}
+			<a target="_blank" href="https://github.com/cbutera484/resume-gatsby">
+        Git
+			</a>
 		</p>
 	</div>
 

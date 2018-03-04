@@ -9,10 +9,12 @@ const NavLink = styled( Link )`
   color: #fff;
   text-decoration: none;
   font-size: calc(1vw + 1vh + 0.3vmin);
-  ${media.phone`padding: 0`};
+
   &:hover {
     color: #c0c0c0;
   }
+
+  ${media.phone`padding: 0`};
 `;
 
 class MainNavLink extends React.Component {

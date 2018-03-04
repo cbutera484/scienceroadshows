@@ -21,6 +21,9 @@ const H1Link = styled( Link )`
   &:hover {
     color: #c0c0c0;
   }
+  ${media.phone`&:hover {
+    color: #fff;
+  }`};
 `;
 
 const Background = styled.div`

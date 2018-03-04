@@ -15,10 +15,11 @@ class MainNav extends React.Component {
 		return (
 			<nav>
 				<MainNavUL>
-					<MainNavLink text="About" href="/about" />
 					<MainNavLink text="Resume" href="/resume" />
 					<MainNavLink text="Portfolio" href="/portfolio" />
-					<MainNavLink text="Contact" href="/contact" />
+					<MainNavLink text="Contact" href="/contact">
+            Contact
+					</MainNavLink>
 				</MainNavUL>
 			</nav>
 		);
