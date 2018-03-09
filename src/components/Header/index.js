@@ -29,6 +29,10 @@ const H1Link = styled( Link )`
 const Background = styled.div`
   background: hsl(216, 60%, 52%);
   box-shadow: 1px 2px 7px #666;
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  ${media.phone`top: -50px`};
 `;
 
 class Header extends React.Component {
