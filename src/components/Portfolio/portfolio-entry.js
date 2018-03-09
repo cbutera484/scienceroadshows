@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Img from "react-image";
 import Spinner from "react-spinkit";
 import media from "../../utils/style-utils";
-import VisibilitySensor from "react-visibility-sensor";
+import LazyLoad from "react-lazyload";
 
 const Logo = styled( Img )`
   height: auto;
@@ -55,13 +55,13 @@ const PortfolioEntry = props =>
 		<LeftColumn className="six columns">
 			<PortfolioLink target="_blank" href={props.portfolioItem.url}>
 				{` `}
-				<VisibilitySensor>
+				<LazyLoad height={200}>
 					<Logo
 						src={`/img/portfolio/${props.portfolioItem.logo}`}
 						alt="{props.portfolioItem.title} Logo"
 						loader={<Spinner name="folding-cube" color="steelblue" />}
 					/>
-				</VisibilitySensor>
+				</LazyLoad>
 			</PortfolioLink>
 		</LeftColumn>
 		<RightColumn className="six columns">

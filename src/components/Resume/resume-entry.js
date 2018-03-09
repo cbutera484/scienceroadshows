@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Img from "react-image";
 import Spinner from "react-spinkit";
 import media from "../../utils/style-utils";
-import VisibilitySensor from "react-visibility-sensor";
+import LazyLoad from "react-lazyload";
 
 const Logo = styled( Img )`
   height: auto;
@@ -51,13 +51,13 @@ const RightColumn = styled.div``;
 const ResumeEntry = props => 
 	<ResumeEntryContainer className="row">
 		<LeftColumn className="five columns">
-			<VisibilitySensor>
+			<LazyLoad height={200}>
 				<Logo
 					src={`/img/resume/logos/${props.resumeItem.logo}`}
 					alt="{props.resumeItem.title} Logo"
 					loader={<Spinner name="folding-cube" color="steelblue" />}
 				/>
-			</VisibilitySensor>
+			</LazyLoad>
 		</LeftColumn>
 		<RightColumn className="seven columns">
 			<div>
