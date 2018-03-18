@@ -17,7 +17,7 @@ class ContactForm extends React.Component {
 					<textarea id="msg" name="user_message" />
 				</div>
 				<div className="button">
-					<button type="submit">Send your message</button>
+					<button type="submit">Send</button>
 				</div>
 			</form>
 		);
