@@ -1,20 +1,35 @@
 import React from "react";
+import "../layouts/contact-form.css";
 
 class ContactForm extends React.Component {
 	render () {
 		return (
-			<form name="contact" action="/form-success" method="POST" netlify>
+			<form
+				className="contact"
+				name="contact"
+				action="/form-success"
+				method="POST"
+			>
 				<div>
 					<label htmlFor="name">Name:</label>
-					<input type="text" id="name" name="user_name" />
+					<div className="inputWrapper">
+						<input type="text" id="name" name="user_name" />
+						<span className="focus-animation" />
+					</div>
 				</div>
 				<div>
 					<label htmlFor="mail">E-mail:</label>
-					<input type="email" id="mail" name="user_mail" />
+					<div className="inputWrapper">
+						<input type="email" id="mail" name="user_mail" />
+						<span className="focus-animation" />
+					</div>
 				</div>
 				<div>
 					<label htmlFor="msg">Message:</label>
-					<textarea id="msg" name="user_message" />
+					<div className="inputWrapper">
+						<textarea id="msg" name="user_message" />
+						<span className="focus-animation" />
+					</div>
 				</div>
 				<div className="button">
 					<button type="submit">Send</button>

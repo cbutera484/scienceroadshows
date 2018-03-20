@@ -1,0 +1,55 @@
+    .inputWrapper {
+        position: relative;
+        width: 50%;
+        margin-bottom: 1.5rem;
+        max-height: 65px;
+    }
+
+    .contact input,
+    .contact textarea {
+        border: none;
+        border-bottom: 1px solid #D1D1D1;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .contact input:focus,
+    .contact textarea:focus {
+        border: none;
+    }
+
+    .contact input:focus+span.focus-animation,
+    .contact textarea:focus+span.focus-animation {
+        width: 100%;
+    }
+
+    .contact .inputWrapper span.focus-animation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+        border-bottom: 2px solid #3b75ce;
+    }
+
+    .contact .inputWrapper:focus {
+        outline: none;
+    }
+
+    .contact .inputWrapper span.focus-animation {
+        transition-property: width;
+        transition-timing-function: ease-out;
+        transition-duration: 0.3s;
+        transition-delay: 0s;
+    }
+
+    .contact span.focus-animation.animated {
+        width: 100%;
+    }
+
+    .contact textarea {
+        width: 100% !important;
+        resize: none;
+    }
