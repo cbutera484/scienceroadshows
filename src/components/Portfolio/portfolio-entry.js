@@ -14,7 +14,6 @@ const Logo = styled( Img )`
 
 const PortfolioLink = styled.a`
   text-decoration: none;
-  color: #000;
 `;
 
 const PortfolioEntryContainer = styled.div`
@@ -70,6 +69,9 @@ const PortfolioEntry = props =>
 				</H3>
 				<Platforms>{props.portfolioItem.platforms}</Platforms>
 				<Description>{props.portfolioItem.description}</Description>
+				<PortfolioLink target="_blank" href={props.portfolioItem.url}>
+          Launch Site
+				</PortfolioLink>
 				<Technologies>
 					<strong>Technology used:</strong> {props.portfolioItem.technology}
 				</Technologies>

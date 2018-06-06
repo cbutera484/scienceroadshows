@@ -23,9 +23,9 @@ const HeadShot = styled( Img )`
 const IndexPage = () => 
 	<div>
 		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
-		<H3>Front End Engineer</H3>
+		<H3>Senior Front-End Engineer</H3>
 		<p>
-      Hi, I{`'`}m Chris. A Front End Engineer based in New York with over 10
+      Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
       years professional experience building highly scalable, award winnings
       websites.
 		</p>
