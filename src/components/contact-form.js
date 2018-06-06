@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
 		return (
 			<form
 				className="contact"
-				name="contact"
+				name="contact-form"
 				data-netlify="true"
 				action="/form-success"
 				method="POST"
@@ -23,14 +23,14 @@ class ContactForm extends React.Component {
 				<div>
 					<label htmlFor="mail">E-mail:</label>
 					<div className="inputWrapper">
-						<input type="email" id="mail" name="user_mail" required />
+						<input type="email" id="mail" name="user_mail" />
 						<span className="focus-animation" />
 					</div>
 				</div>
 				<div>
 					<label htmlFor="msg">Message:</label>
 					<div className="inputWrapper">
-						<textarea id="msg" name="user_message" required />
+						<input type="text" id="msg" name="user_message" required />
 						<span className="focus-animation" />
 					</div>
 				</div>
