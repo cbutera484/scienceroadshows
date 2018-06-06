@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
 		return (
 			<form
 				className="contact"
-				name="contact"
+				name="contact-form"
 				action="/form-success"
 				method="POST"
 				netlify
