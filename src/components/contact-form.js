@@ -14,7 +14,7 @@ class ContactForm extends React.Component {
 				<div>
 					<label htmlFor="name">Name:</label>
 					<div className="inputWrapper">
-						<input type="text" id="name" name="user_name" />
+						<input type="text" id="name" name="user_name" required />
 						<span className="focus-animation" />
 					</div>
 				</div>
@@ -28,7 +28,7 @@ class ContactForm extends React.Component {
 				<div>
 					<label htmlFor="msg">Message:</label>
 					<div className="inputWrapper">
-						<textarea id="msg" name="user_message" />
+						<input type="text" id="msg" name="user_message" required />
 						<span className="focus-animation" />
 					</div>
 				</div>
