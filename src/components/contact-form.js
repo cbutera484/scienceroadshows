@@ -9,6 +9,7 @@ class ContactForm extends React.Component {
 				name="contact"
 				action="/form-success"
 				method="POST"
+				netlify
 			>
 				<div>
 					<label htmlFor="name">Name:</label>
