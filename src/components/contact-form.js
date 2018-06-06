@@ -35,7 +35,9 @@ class ContactForm extends React.Component {
 					</div>
 				</div>
 
-				<button type="submit">Send</button>
+				<div className="button">
+					<button type="submit">Send</button>
+				</div>
 			</form>
 		);
 	}
