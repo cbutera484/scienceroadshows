@@ -17,7 +17,7 @@ class MainNav extends React.Component {
 				<MainNavUL>
 					<MainNavLink text="Resume" href="/resume" />
 					<MainNavLink text="Portfolio" href="/portfolio" />
-					<MainNavLink text="Contact" href="/contact-form">
+					<MainNavLink text="Contact" href="/contact">
             Contact
 					</MainNavLink>
 				</MainNavUL>
