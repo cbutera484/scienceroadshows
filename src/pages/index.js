@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import styled from "styled-components";
 import Img from "react-image";
 import HeadShotImage from "../img/headshot-1.jpg";
+import media from "../utils/style-utils";
 
 const H3 = styled.h3`
   text-align: center;
@@ -13,12 +14,13 @@ const H3 = styled.h3`
 const HeadShot = styled( Img )`
   border-radius: 5000px;
   background-color: #ccc;
-  max-width: 30%;
+  max-width: 15%;
   height: auto;
   width: auto;
   margin: 0 auto;
   display: block;
   box-shadow: 3px 7px 14px #666;
+  ${media.phone`max-width: 40%;`};
 `;
 
 const IndexPage = () => 

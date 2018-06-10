@@ -5,6 +5,12 @@
         max-height: 65px;
     }
 
+    @media only screen and (max-device-width: 736px) {
+        .inputWrapper {
+            width: 90%;
+        }
+    }
+
     .contact input,
     .contact textarea {
         border: none;
