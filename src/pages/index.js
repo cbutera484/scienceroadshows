@@ -2,17 +2,24 @@ import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
 import Img from "react-image";
-import HeadShotImage from "../img/headshot.jpg";
+import HeadShotImage from "../img/headshot-1.jpg";
+
+const H1 = styled.h1`
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bold;
+`;
 
 const H3 = styled.h3`
   text-align: center;
   margin-top: 25px;
+  font-weight: normal;
 `;
 
 const HeadShot = styled( Img )`
-  border-radius: 500px;
+  border-radius: 5000px;
   background-color: #ccc;
-  max-width: 35%;
+  max-width: 30%;
   height: auto;
   width: auto;
   margin: 0 auto;
@@ -23,6 +30,7 @@ const HeadShot = styled( Img )`
 const IndexPage = () => 
 	<div>
 		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
+
 		<H3>Senior Front-End Engineer</H3>
 		<p>
       Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
