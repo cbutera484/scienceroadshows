@@ -4,12 +4,6 @@ import styled from "styled-components";
 import Img from "react-image";
 import HeadShotImage from "../img/headshot-1.jpg";
 
-const H1 = styled.h1`
-  text-align: center;
-  margin-top: 25px;
-  font-weight: bold;
-`;
-
 const H3 = styled.h3`
   text-align: center;
   margin-top: 25px;
