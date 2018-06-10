@@ -11,7 +11,10 @@ const NavLink = styled( Link )`
   font-size: calc(1vw + 1vh + 0.3vmin);
 
   &:hover {
-    color: #c0c0c0;
+    color: #222;
+  }
+  .is-active {
+    color: #222;
   }
 
   ${media.phone`padding: 0`};
@@ -19,7 +22,11 @@ const NavLink = styled( Link )`
 
 class MainNavLink extends React.Component {
 	render () {
-		return <NavLink to={this.props.href}>{this.props.text}</NavLink>;
+		return (
+			<NavLink activeClassName="is-active" to={this.props.href}>
+				{this.props.text}
+			</NavLink>
+		);
 	}
 }
 

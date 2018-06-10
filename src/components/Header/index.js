@@ -19,7 +19,7 @@ const H1Link = styled( Link )`
   color: #fff;
   text-decoration: none;
   &:hover {
-    color: #c0c0c0;
+    color: #222;
   }
   ${media.phone`&:hover {
     color: #fff;
