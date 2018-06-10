@@ -26,7 +26,7 @@ const IndexPage = () =>
 		<H3>Senior Front-End Engineer</H3>
 		<p>
       Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
-      years professional experience building highly scalable, award winnings
+      years professional experience building highly scalable, award winning
       websites.
 		</p>
 		<p>
