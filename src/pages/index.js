@@ -32,7 +32,7 @@ const IndexPage = () =>
 		<p>
       My current toolset includes{` `}
 			<strong>
-        Javascript (ES6), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
+        Javascript (ES6+), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
         VS Code
 			</strong>
 			{` `}but I also have experience with PHP (Laravel) and various CMSs
