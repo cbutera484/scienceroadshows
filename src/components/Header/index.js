@@ -27,7 +27,7 @@ const H1Link = styled( Link )`
 `;
 
 const Background = styled.div`
-  background: hsl(216, 60%, 52%);
+  background: hsl(216, 43%, 66%);
   box-shadow: 1px 2px 7px #666;
   top: 0;
   z-index: 1;
@@ -43,7 +43,7 @@ class Header extends React.Component {
 					<div className="row">
 						<div className="four columns">
 							<H1>
-								<H1Link to="/"> Chris Butera</H1Link>
+								<H1Link to="/">Science Roadshows</H1Link>
 							</H1>
 						</div>
 						<div className="eight columns">

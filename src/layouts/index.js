@@ -14,12 +14,12 @@ const Container = styled.div`
 const TemplateWrapper = ({ children }) => 
 	<div>
 		<Helmet
-			title="Chris Butera"
+			title="Science Roadshow"
 			meta={[
-				{ name: `description`, content: `Portfolio for Christopher Butera` },
+				{ name: `description`, content: `Science Roadshow` },
 				{
 					name: `keywords`,
-					content: `Chris, Christopher, Butera, Portfolio, Front End, Engineer, Developer, Javascript, React, HTML5, CSS3`
+					content: `Science, Roadshow`
 				}
 			]}
 		/>

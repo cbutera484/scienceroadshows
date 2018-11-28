@@ -15,8 +15,8 @@ class MainNav extends React.Component {
 		return (
 			<nav>
 				<MainNavUL>
-					<MainNavLink text="Resume" href="/resume" />
-					<MainNavLink text="Portfolio" href="/portfolio" />
+					<MainNavLink text="Libraries" href="/libraries" />
+					<MainNavLink text="Schools" href="/schools" />
 					<MainNavLink text="Contact" href="/contact">
             Contact
 					</MainNavLink>

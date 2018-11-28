@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
 import Img from "react-image";
-import HeadShotImage from "../img/headshot-1.jpg";
+import HeadShotImage from "../img/lee.jpg";
 import media from "../utils/style-utils";
 
 const H3 = styled.h3`
@@ -12,7 +12,7 @@ const H3 = styled.h3`
 `;
 
 const HeadShot = styled( Img )`
-  border-radius: 5000px;
+  border-radius: 30px;
   background-color: #ccc;
   max-width: 15%;
   height: auto;
@@ -25,36 +25,20 @@ const HeadShot = styled( Img )`
 
 const IndexPage = () => 
 	<div>
-		<HeadShot src={HeadShotImage} alt="Chris Butera Headshot" />
+		<HeadShot src={HeadShotImage} alt="Lee Headshot" />
 
-		<H3>Senior Front-End Engineer</H3>
+		<H3>Science Roadshows</H3>
 		<p>
-      Hi, I{`'`}m Chris. A Front-End Engineer based in New York with over 12
-      years professional experience building highly scalable, award winning
-      websites.
-		</p>
-		<p>
-      My current toolset includes{` `}
-			<strong>
-        Javascript (ES6+), React, Vue, Jest, MVC, HTML5/CSS3, Webpack, Gulp, and
-        VS Code
-			</strong>
-			{` `}but I also have experience with PHP (Laravel) and various CMSs
-      including Joomla, Wordpress, and Drupal.
-		</p>
-		<p>
-      Check out my <Link to="/resume">Resume</Link> to view my experience or my{` `}
-			<Link to="/portfolio">Portfolio</Link> to view some of my work!
-		</p>
-		<p>
-      This site built with React and Gatsby. See the source code on{` `}
-			<a
-				rel="noopener noreferrer"
-				target="_blank"
-				href="https://github.com/cbutera484/resume-gatsby"
-			>
-        Git
-			</a>
+      Live programs presented by teacher Lee Ognibene. (Retired Sayville
+      Planetarium Director and 1998 Suffolk County Science Teacher of the Year).
+      I wear a theme outfit that fits each show and use a wireless mic with a
+      professional sound system for crystal clear sound. My video projector will
+      light up your screen with amazing, jaw-dropping video scenes that will
+      create the excitement of a live, professional show. Many have said my
+      shows are like a mix of Disney, Bill Nye, and an IMAX movie. My shows are
+      also very humorous and it’s wonderful to hear both children and their
+      parents laughing as they share the wonders of science. I have won many
+      awards for my ability to teach and motivate audiences of all ages.
 		</p>
 	</div>
 
