@@ -14,7 +14,7 @@ const H3 = styled.h3`
 const HeadShot = styled( Img )`
   border-radius: 30px;
   background-color: #ccc;
-  max-width: 15%;
+  max-width: 75%;
   height: auto;
   width: auto;
   margin: 0 auto;
