@@ -36,9 +36,11 @@ const LibrariesPage = () =>
 		<h2>4 Great Shows for your Library</h2>
 		<HeadShot src={HeadShotImage} alt="Lee Headshot" />
 		<p>
-			<a href="static/pdf/flyer-libary.pdf">Download Printable Copy</a>
+			<a href="static/pdf/flyer-library.pdf">Download Printable Copy</a>
 		</p>
-		<h5>Dear Children’s and Adult Program Directors:</h5>
+		<p>
+			<strong>Dear Children’s and Adult Program Directors:</strong>
+		</p>
 
 		<p>
 			{` `}

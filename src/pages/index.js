@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import styled from "styled-components";
 import Img from "react-image";
 import HeadShotImage from "../img/lee.jpg";

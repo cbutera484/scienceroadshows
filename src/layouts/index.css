@@ -6,7 +6,7 @@ th,
 td {
   padding: 2px 5px;
   font-weight: bold;
-  font-size: calc(0.2vh + 0.7vw + 0.3vmin);
+  font-size: calc(0.4vh + 0.5vw + 0.3vmin);
 }
 
 a {
