@@ -22,33 +22,47 @@ const H5 = styled.h5`
   text-align: center;
 `;
 
+const FlyerLink = styled.a`
+  text-decoration: none;
+`;
+
 const SchoolsPage = () => 
 	<div>
 		<h2>Schools</h2>
 		<div className="row">
 			<div className="six columns">
-				<H5>The Bug Roadshow</H5>
-				<FlyerImage src={beeImage} alt="Bee" />
+				<FlyerLink href="/bug-roadshow">
+					<H5>The Bug Roadshow</H5>
+					<FlyerImage src={beeImage} alt="Bee" />
+				</FlyerLink>
 			</div>
 			<div className="six columns">
-				<H5>Our Endangered Earth</H5>
-				<FlyerImage src={earthImage} alt="Earth" />
+				<FlyerLink href="/endangered-earth">
+					<H5>Our Endangered Earth</H5>
+					<FlyerImage src={earthImage} alt="Earth" />
+				</FlyerLink>
 			</div>
 		</div>
 		<div className="row">
 			<div className="six columns">
-				<H5>Rainforest Adventure</H5>
-				<FlyerImage src={rainforestImage} alt="Bee" />
+				<FlyerLink href="/rainforest-adventure">
+					<H5>Rainforest Adventure</H5>
+					<FlyerImage src={rainforestImage} alt="Bee" />
+				</FlyerLink>
 			</div>
 			<div className="six columns">
-				<H5>Space Roadshow</H5>
-				<FlyerImage src={spaceImage} alt="Earth" />
+				<FlyerLink href="/space-roadhow">
+					<H5>Space Roadshow</H5>
+					<FlyerImage src={spaceImage} alt="Earth" />
+				</FlyerLink>
 			</div>
 		</div>
 		<div className="row">
 			<div className="twelve columns">
-				<H5>Under The Sea</H5>
-				<FlyerImage src={seaImage} alt="Bee" />
+				<FlyerLink href="/under-the-sea">
+					<H5>Under The Sea</H5>
+					<FlyerImage src={seaImage} alt="Bee" />
+				</FlyerLink>
 			</div>
 		</div>
 	</div>
