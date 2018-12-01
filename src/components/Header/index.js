@@ -13,13 +13,13 @@ const Container = styled.div`
 const H1 = styled.h1`
   margin: 1rem 0;
   font-size: calc(1.5vw + 1.5vh + 0.3vmin);
-  ${media.phone`margin: 0 auto; padding-bottom: 20px;text-align:center; font-size: calc(2.0vw + 2.0vh + 0.9vmin); margin: 0`};
+  ${media.phone`margin: 0 auto; padding-bottom: 40px;text-align:center; font-size: calc(2.0vw + 2.0vh + 0.9vmin); margin: 0`};
 `;
 const H1Link = styled( Link )`
   color: #fff;
   text-decoration: none;
   &:hover {
-    color: #222;
+    color: #d8cd1f;
   }
   ${media.phone`&:hover {
     color: #fff;
@@ -27,7 +27,7 @@ const H1Link = styled( Link )`
 `;
 
 const Background = styled.div`
-  background: hsl(216, 43%, 66%);
+  background: hsl(136, 100%, 23%);
   box-shadow: 1px 2px 7px #666;
   top: 0;
   z-index: 1;

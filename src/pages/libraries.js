@@ -28,7 +28,7 @@ const HeadShot = styled( Img )`
   margin: 0 auto;
   display: block;
   box-shadow: 3px 7px 14px #666;
-  ${media.phone`max-width: 40%;`};
+  ${media.phone`max-width: 40%; margin-bottom: 20px;`};
 `;
 
 const LibrariesPage = () => 
@@ -64,7 +64,7 @@ const LibrariesPage = () =>
       and their parents laughing as they share the wonders of science. I have
       won many awards for my ability to teach and motivate audiences of all
       ages. It would be my pleasure to perform my shows at your library. Each
-      show is one hour long and is only $275.
+      show is one hour long and is only $250.
 		</p>
 		<p>
       See the Long Island libraries that booked my shows just before I moved:

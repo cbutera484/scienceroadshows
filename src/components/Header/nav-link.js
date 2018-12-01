@@ -9,12 +9,13 @@ const NavLink = styled( Link )`
   color: #fff;
   text-decoration: none;
   font-size: calc(1vw + 1vh + 0.3vmin);
+  font-family: "comic sans ms", cursive, sans-serif;
 
   &:hover {
-    color: #222;
+    color: #d8cd1f;
   }
   .is-active {
-    color: #222;
+    color: #d8cd1f;
   }
 
   ${media.phone`padding: 0`};
