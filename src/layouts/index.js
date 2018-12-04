@@ -14,7 +14,7 @@ const Container = styled.div`
 const TemplateWrapper = ({ children }) => 
 	<div>
 		<Helmet
-			title="Science Roadshow"
+			title="Science Roadshows"
 			meta={[
 				{ name: `description`, content: `Science Roadshow` },
 				{

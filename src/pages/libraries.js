@@ -4,20 +4,10 @@ import earthImage from "../img/libraries/earth.jpg";
 import galaxyImage from "../img/libraries/galaxy.jpg";
 import sharkImage from "../img/libraries/shark.jpg";
 import styled from "styled-components";
+import HeaderImage from "../components/header-image";
 import Img from "react-image";
 import media from "../utils/style-utils";
 import HeadShotImage from "../img/lee.jpg";
-
-const HeaderImage = styled( Img )`
-  border-radius: 30px;
-  background-color: #ccc;
-  max-width: 75%;
-  height: auto;
-  width: auto;
-  margin: 20px auto 20px;
-  display: block;
-  box-shadow: 3px 7px 14px #666;
-`;
 
 const HeadShot = styled( Img )`
   border-radius: 30px;
