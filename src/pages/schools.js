@@ -2,7 +2,7 @@ import React from "react";
 import Img from "react-image";
 import beeImage from "../img/schools/bee.jpg";
 import earthImage from "../img/libraries/earth.jpg";
-import spaceImage from "../img/schools/space-roadshow.jpg";
+import spaceImage from "../img/schools/space-station.jpg";
 import rainforestImage from "../img/schools/rainforest.jpeg";
 import seaImage from "../img/libraries/shark.jpg";
 import styled from "styled-components";
@@ -13,13 +13,16 @@ const FlyerImage = styled( Img )`
   max-width: 100%;
   height: 250px;
   width: auto;
-  margin: 20px auto 20px;
+  margin: 0px auto 20px;
   display: block;
   box-shadow: 3px 7px 14px #666;
 `;
 
 const H5 = styled.h5`
   text-align: center;
+  line-height: 0em;
+  font-size: 30px;
+  margin-top: 40px;
 `;
 
 const FlyerLink = styled.a`
@@ -51,7 +54,7 @@ const SchoolsPage = () =>
 				</FlyerLink>
 			</div>
 			<div className="six columns">
-				<FlyerLink href="/space-roadhow">
+				<FlyerLink href="/space-roadshow">
 					<H5>Space Roadshow</H5>
 					<FlyerImage src={spaceImage} alt="Earth" />
 				</FlyerLink>

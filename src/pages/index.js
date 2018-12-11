@@ -28,7 +28,8 @@ const IndexPage = () =>
 
 		<H3>Science Roadshows</H3>
 		<p>
-      Live programs presented by teacher Lee Ognibene. (Retired Sayville
+      Live programs presented for your <strong>School</strong> or{` `}
+			<strong>Library</strong> by teacher Lee Ognibene. (Retired Sayville
       Planetarium Director and 1998 Suffolk County Science Teacher of the Year).
       I wear a theme outfit that fits each show and use a wireless mic with a
       professional sound system for crystal clear sound. My video projector will

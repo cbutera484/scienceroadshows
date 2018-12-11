@@ -56,7 +56,7 @@ const LibrariesPage = () =>
       and their parents laughing as they share the wonders of science. I have
       won many awards for my ability to teach and motivate audiences of all
       ages. It would be my pleasure to perform my shows at your library. Each
-      show is one hour long and is only $250.
+      show is one hour long and is only <strong>$250</strong>.
 		</p>
 		<p>
       See the Long Island libraries that booked my shows just before I moved:

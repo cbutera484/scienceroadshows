@@ -5,7 +5,6 @@ const ContactPage = () =>
 		<p>
       Lee Ognibene Productions<br />
       Huntington, NY 11743<br />
-      (646) 725-8439<br />
 			<a href="mailto:spaceroadshow@yahoo.com">spaceroadshow@yahoo.com</a>
 		</p>
 	</div>

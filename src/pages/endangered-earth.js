@@ -40,9 +40,10 @@ const EndangeredEarthPage = () =>
 		</p>
 		<p>
 			<strong>
-        Fee: $250 for one show. (2 back to back shows, only $450. They can be
-        different shows from different grade levels) Team up with teachers in
-        other grades and save money!
+        Fee: $350. (Book 2 back to back shows- Only $290 each. They can be
+        different shows for different grades. Team up with other grades and save
+        money!) I participate in the BOCES arts and education program for
+        Eastern Suffolk, Western Suffolk, and Nassau County.
 			</strong>
 		</p>
 	</div>

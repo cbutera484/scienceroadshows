@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderImage from "../components/header-image";
 import TextImage from "../components/text-image";
-import prayingMantisImage from "../img/schools/praying-mantis.jpg";
+import prayingMantisImage from "../img/libraries/butterfly.jpg";
 import beeImage from "../img/schools/bee.jpg";
 
 const BugPage = () => 
@@ -51,11 +51,12 @@ const BugPage = () =>
       Teacher of the Year.
 		</p>
 		<p>
-      Fee:{` `}
-			<strong>$350 for one show. (2 back to back shows, only $590.)</strong>
-			{` `}
-      They can be two different shows in different grade levels. Team up and
-      save money! Expect rave reviews!
+			<strong>
+        Fee: $350. (Book 2 back to back shows- Only $290 each. They can be
+        different shows for different grades. Team up with other grades and save
+        money!) I participate in the BOCES arts and education program for
+        Eastern Suffolk, Western Suffolk, and Nassau County.
+			</strong>
 		</p>
 	</div>
 
