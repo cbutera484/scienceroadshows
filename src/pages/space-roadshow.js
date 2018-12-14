@@ -8,7 +8,9 @@ const SpaceRoadshowPage = () =>
 	<div>
 		<h2>Space Roadshow</h2>
 		<HeaderImage src={spaceImage} alt="Earth" />
-
+		<p>
+			<a href="static/pdf/space-roadshow.pdf">Download Printable Copy</a>
+		</p>
 		<p>
       Looking for a great show or assembly program that’s fun and yet covers
       your astronomy curriculum? This is it! <strong>The Space Roadshow</strong>

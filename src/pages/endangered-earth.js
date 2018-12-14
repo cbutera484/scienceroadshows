@@ -8,6 +8,9 @@ const EndangeredEarthPage = () =>
 	<div>
 		<h2>Our Endangered Earth</h2>
 		<HeaderImage src={earthImage} alt="Earth" />
+		<p>
+			<a href="static/pdf/earth.pdf">Download Printable Copy</a>
+		</p>
 
 		<p>
 			<strong>Our Endangered Earth</strong> is an outstanding environmental show

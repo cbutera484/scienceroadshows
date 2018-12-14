@@ -8,6 +8,10 @@ const BugPage = () =>
 	<div>
 		<h2>The Bug Roadshow</h2>
 		<HeaderImage src={beeImage} alt="Bee" />
+		<p>
+			{` `}
+			<a href="static/pdf/bug.pdf">Download Printable Copy</a>
+		</p>
 
 		<p>
       Your students will absolutely love <strong>The BUG Roadshow!</strong> This

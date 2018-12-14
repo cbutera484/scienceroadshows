@@ -31,7 +31,11 @@ const FlyerLink = styled.a`
 
 const SchoolsPage = () => 
 	<div>
-		<h2>Schools</h2>
+		<h2>Shows for Schools</h2>
+		<p>
+      Click below to read more about each show and print out a description to
+      share with your colleagues:
+		</p>
 		<div className="row">
 			<div className="six columns">
 				<FlyerLink href="/bug-roadshow">

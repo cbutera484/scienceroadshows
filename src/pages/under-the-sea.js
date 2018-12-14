@@ -8,7 +8,9 @@ const UnderTheSeaPage = () =>
 	<div>
 		<h2>Under The Sea</h2>
 		<HeaderImage src={sharkImage} alt="Earth" />
-
+		<p>
+			<a href="static/pdf/sea.pdf">Download Printable Copy</a>
+		</p>
 		<p>
       Looking for a great show or assembly program that’s fun and yet covers
       your oceanography curriculum? You found it! <strong>UNDER THE SEA</strong>is
