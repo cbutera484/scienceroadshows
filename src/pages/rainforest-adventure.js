@@ -10,7 +10,7 @@ const RainforestAdventurePage = () =>
 		<h2>Rainforest Adventure</h2>
 		<HeaderImage src={rainforestImage} alt="Earth" />
 		<p>
-			<a href="static/pdf/rainforest.pdf">Download Printable Copy</a>
+			<a href="/static/pdf/rainforest.pdf">Download Printable Copy</a>
 		</p>
 		<p>
 			<strong>RAINFOREST ADVENTURE</strong> is a in-school field trip to the

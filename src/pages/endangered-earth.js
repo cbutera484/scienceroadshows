@@ -10,7 +10,7 @@ const EndangeredEarthPage = () =>
 		<h2>Our Endangered Earth</h2>
 		<HeaderImage src={earthImage} alt="Earth" />
 		<p>
-			<a href="static/pdf/earth.pdf">Download Printable Copy</a>
+			<a href="/static/pdf/earth.pdf">Download Printable Copy</a>
 		</p>
 
 		<p>
