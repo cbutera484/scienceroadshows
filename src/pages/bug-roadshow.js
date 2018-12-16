@@ -11,7 +11,7 @@ const BugPage = () =>
 		<HeaderImage src={beeImage} alt="Bee" />
 		<p>
 			{` `}
-			<a href="static/pdf/bug.pdf">Download Printable Copy</a>
+			<a href="/static/pdf/bug.pdf">Download Printable Copy</a>
 		</p>
 
 		<p>
