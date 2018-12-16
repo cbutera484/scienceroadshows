@@ -3,6 +3,7 @@ import HeaderImage from "../components/header-image";
 import TextImage from "../components/text-image";
 import sharkImage from "../img/libraries/shark.jpg";
 import fishImage from "../img/schools/fish.jpg";
+import Fee from "../components/fee";
 
 const UnderTheSeaPage = () => 
 	<div>
@@ -54,14 +55,8 @@ const UnderTheSeaPage = () =>
       screen, I can project my show on a white or light colored wall. Expect
       rave reviews!
 		</p>
-		<p>
-			<strong>
-        Fee: $350. (Book 2 back to back shows- Only $290 each. They can be
-        different shows for different grades. Team up with other grades and save
-        money!) I participate in the BOCES arts and education program for
-        Eastern Suffolk, Western Suffolk, and Nassau County.
-			</strong>
-		</p>
+
+		<Fee />
 	</div>
 
 ;

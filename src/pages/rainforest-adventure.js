@@ -3,6 +3,7 @@ import HeaderImage from "../components/header-image";
 import TextImage from "../components/text-image";
 import rainforestImage from "../img/schools/rainforest.jpeg";
 import rainforestParrotImage from "../img/schools/rainforest-parrot.jpg";
+import Fee from "../components/fee";
 
 const RainforestAdventurePage = () => 
 	<div>
@@ -54,14 +55,8 @@ const RainforestAdventurePage = () =>
       outside field trips with high admission fees and expensive buses. (No
       worries about bad weather, permission slips, collecting money, etc)
 		</p>
-		<p>
-			<strong>
-        Fee: $350. (Book 2 back to back shows- Only $290 each. They can be
-        different shows for different grades. Team up with other grades and save
-        money!) I participate in the BOCES arts and education program for
-        Eastern Suffolk, Western Suffolk, and Nassau County.
-			</strong>
-		</p>
+
+		<Fee />
 	</div>
 
 ;

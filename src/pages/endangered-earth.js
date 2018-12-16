@@ -3,6 +3,7 @@ import HeaderImage from "../components/header-image";
 import TextImage from "../components/text-image";
 import earthImage from "../img/libraries/earth.jpg";
 import factoryImage from "../img/schools/factory.jpg";
+import Fee from "../components/fee";
 
 const EndangeredEarthPage = () => 
 	<div>
@@ -41,14 +42,8 @@ const EndangeredEarthPage = () =>
       and Earth’s circle of life (ecology). This show is a perfect way to
       celebrate Earth Day in April but can be shown any time of the year. room.
 		</p>
-		<p>
-			<strong>
-        Fee: $350. (Book 2 back to back shows- Only $290 each. They can be
-        different shows for different grades. Team up with other grades and save
-        money!) I participate in the BOCES arts and education program for
-        Eastern Suffolk, Western Suffolk, and Nassau County.
-			</strong>
-		</p>
+
+		<Fee />
 	</div>
 
 ;

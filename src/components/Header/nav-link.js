@@ -8,7 +8,7 @@ const NavLink = styled( Link )`
   padding: 1rem;
   color: #fff;
   text-decoration: none;
-  font-size: calc(1vw + 1vh + 0.3vmin);
+  font-size: 3rem;
   font-family: "comic sans ms", cursive, sans-serif;
 
   &:hover {
@@ -18,7 +18,7 @@ const NavLink = styled( Link )`
     color: #d8cd1f;
   }
 
-  ${media.phone`padding: 0`};
+  ${media.phone`padding: 0; font-size:2rem`};
 `;
 
 class MainNavLink extends React.Component {
