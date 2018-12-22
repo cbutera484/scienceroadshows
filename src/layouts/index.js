@@ -23,6 +23,10 @@ const TemplateWrapper = ({ children }) =>
 				{
 					name: `keywords`,
 					content: `science, roadshow, space, forest, rain, teacher, earth, school, library, sea, rainforest, bugs, bee, shark`
+				},
+				{
+					name: `google-site-verification`,
+					content: `98cR6cME9P5bbJUo6MtqyDPx-jM-MDtsU61CfKyiG4o`
 				}
 			]}
 		/>
