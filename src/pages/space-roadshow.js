@@ -18,7 +18,7 @@ const SpaceRoadshowPage = () =>
 			{` `}
       is an in-school field trip to the universe! This live program is presented
       by science teacher Lee Ognibene, retired director of the Sayville
-      Planetarium and 1998 Suffolk County Science Teacher of the Year. .
+      Planetarium and 1998 Suffolk County Science Teacher of the Year.
 		</p>
 		<p>
 			<strong>The Space Roadshow</strong> will transform your auditorium,
@@ -26,7 +26,7 @@ const SpaceRoadshowPage = () =>
       Teachers are always amazed how much the students remember even months
       after seeing this show. Many teachers comment it’s like a cross between
       Bill Nye, a live Disney show, an IMAX movie, a planetarium show.
-			<TextImage src={spaceEarthImage} alt="Parrot" />
+			<TextImage src={spaceEarthImage} alt="Earth" />
 		</p>
 		<p>
       My powerful video projector will light up your screen or white wall with
@@ -46,7 +46,7 @@ const SpaceRoadshowPage = () =>
       Unlike outside field trips, the Space Roadshow comes to your school so you
       will have the benefit of saving money on expensive bus transportation and
       admission fees. Outside field trips can take a whole day but the Space
-      Roadshow is only 1 hour long and provides more learning!. Because the show
+      Roadshow is only 1 hour long and provides more learning! Because the show
       is live, it can be customized for any grade level, from Kindergarten to
       9th grade.
 		</p>

@@ -14,12 +14,15 @@ const Container = styled.div`
 const TemplateWrapper = ({ children }) => 
 	<div>
 		<Helmet
-			title="Science Roadshows"
+			title="Science Roadshows by Lee Ognibene"
 			meta={[
-				{ name: `description`, content: `Science Roadshow` },
+				{
+					name: `description`,
+					content: `Live programs presented for your School or Library by teacher Lee Ognibene. `
+				},
 				{
 					name: `keywords`,
-					content: `Science, Roadshow`
+					content: `science, roadshow, space, forest, rain, teacher, earth, school, library, sea, rainforest, bugs, bee, shark`
 				}
 			]}
 		/>
