@@ -14,18 +14,19 @@ const SpaceRoadshowPage = () =>
 		</p>
 		<p>
       Looking for a great show or assembly program that’s fun and yet covers
-      your astronomy curriculum? This is it! The Space Roadshow is an in-school
-      field trip to the universe! This live program is presented by science
-      teacher Lee Ognibene, retired director of the Sayville Planetarium and
-      1998 Suffolk County Science Teacher of the Year.
+      your astronomy curriculum? This is it! <strong>The Space Roadshow</strong>
+			{` `}
+      is an in-school field trip to the universe! This live program is presented
+      by science teacher Lee Ognibene, retired director of the Sayville
+      Planetarium and 1998 Suffolk County Science Teacher of the Year.
 		</p>
 		<p>
-      The Space Roadshow will transform your auditorium, cafeteria,
-      multi-purpose room, or gym into an exciting astronomy show. Teachers are
-      always amazed how much the students remember even months after seeing this
-      show. Many teachers comment my shows are like a cross between Bill Nye, a
-      live Disney show, an IMAX movie, and a planetarium show. They have that
-      “wow” factor.
+			<strong>The Space Roadshow</strong> will transform your auditorium,
+      cafeteria, multi-purpose room, or gym into an exciting astronomy show.
+      Teachers are always amazed how much the students remember even months
+      after seeing this show. Many teachers comment my shows are like a cross
+      between Bill Nye, a live Disney show, an IMAX movie, and a planetarium
+      show. They have that “wow” factor.
 			<TextImage src={spaceEarthImage} alt="Earth" />
 		</p>
 		<p>
