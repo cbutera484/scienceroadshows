@@ -8,6 +8,7 @@ import HeaderImage from "../components/header-image";
 import Img from "react-image";
 import media from "../utils/style-utils";
 import HeadShotImage from "../img/lee.jpg";
+import Helmet from "react-helmet";
 
 const HeadShot = styled( Img )`
   border-radius: 30px;
@@ -23,6 +24,13 @@ const HeadShot = styled( Img )`
 
 const LibrariesPage = () => 
 	<div>
+		<Helmet>
+			<title>Science Roadshows for your library by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
 		<h2>4 Great Shows for your Library</h2>
 		<HeadShot src={HeadShotImage} alt="Lee Headshot" />
 		<p>

@@ -4,9 +4,17 @@ import TextImage from "../components/text-image";
 import rainforestImage from "../img/schools/rainforest.jpeg";
 import rainforestParrotImage from "../img/schools/rainforest-parrot.jpg";
 import Fee from "../components/fee";
+import Helmet from "react-helmet";
 
 const RainforestAdventurePage = () => 
 	<div>
+		<Helmet>
+			<title>Rainforest Roadshow by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
 		<h2>Rainforest Adventure</h2>
 		<HeaderImage src={rainforestImage} alt="Earth" />
 		<p>

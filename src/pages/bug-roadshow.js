@@ -4,9 +4,17 @@ import TextImage from "../components/text-image";
 import prayingMantisImage from "../img/libraries/butterfly.jpg";
 import beeImage from "../img/schools/bee.jpg";
 import Fee from "../components/fee";
+import Helmet from "react-helmet";
 
 const BugPage = () => 
 	<div>
+		<Helmet>
+			<title>Bug Roadshow by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
 		<h2>The Bug Roadshow</h2>
 		<HeaderImage src={beeImage} alt="Bee" />
 		<p>

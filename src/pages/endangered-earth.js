@@ -4,9 +4,17 @@ import TextImage from "../components/text-image";
 import earthImage from "../img/libraries/earth.jpg";
 import factoryImage from "../img/schools/factory.jpg";
 import Fee from "../components/fee";
+import Helmet from "react-helmet";
 
 const EndangeredEarthPage = () => 
 	<div>
+		<Helmet>
+			<title>Endangered Earth Roadshow by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
 		<h2>Our Endangered Earth</h2>
 		<HeaderImage src={earthImage} alt="Earth" />
 		<p>

@@ -4,9 +4,18 @@ import TextImage from "../components/text-image";
 import spaceImage from "../img/schools/space-station.jpg";
 import spaceEarthImage from "../img/schools/space-earth.jpg";
 import Fee from "../components/fee";
+import Helmet from "react-helmet";
 
 const SpaceRoadshowPage = () => 
 	<div>
+		<Helmet>
+			<title>Space Roadshow by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
+
 		<h2>Space Roadshow</h2>
 		<HeaderImage src={spaceImage} alt="Earth" />
 		<p>

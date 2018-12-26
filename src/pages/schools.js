@@ -6,6 +6,7 @@ import spaceImage from "../img/schools/space-station.jpg";
 import rainforestImage from "../img/schools/rainforest.jpeg";
 import seaImage from "../img/libraries/shark.jpg";
 import styled from "styled-components";
+import Helmet from "react-helmet";
 
 const FlyerImage = styled( Img )`
   border-radius: 30px;
@@ -31,6 +32,13 @@ const FlyerLink = styled.a`
 
 const SchoolsPage = () => 
 	<div>
+		<Helmet>
+			<title>Science Roadshows for schools by Lee Ognibene</title>
+			<meta
+				name="description"
+				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+			/>
+		</Helmet>
 		<h2>Shows for Schools</h2>
 		<p>
       Click below to read more about each show and print out a description to
