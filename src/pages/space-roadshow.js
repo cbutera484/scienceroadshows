@@ -46,7 +46,7 @@ const SpaceRoadshowPage = () =>
       Unlike outside field trips, the Space Roadshow comes to your school so you
       will have the benefit of saving money on expensive bus transportation and
       admission fees. Outside field trips can take a whole day but the Space
-      Roadshow is only 1 hour long and provides more learning! Because the show
+      Roadshow is only 1 hour long and provides more learning!. Because the show
       is live, it can be customized for any grade level, from Kindergarten to
       9th grade.
 		</p>
