@@ -37,7 +37,7 @@ const LibrariesPage = () =>
 			<a href="/static/pdf/flyer-library.pdf">Download Printable Copy</a>
 		</p>
 		<p>
-			<strong>Dear Children’s and Adult Program Directors:</strong>
+			<strong>Dear Children’s Program Directors:</strong>
 		</p>
 
 		<p>
@@ -45,12 +45,16 @@ const LibrariesPage = () =>
       I have 4 exciting science shows that would be perfect for your library.
       Each show can be used as a children’s program or a family program for
       children and their parents to enjoy together. My shows consistently get
-      rave reviews and have that “wow” factor. After each show, parents and kids
-      tell me that my show was the best library program they ever saw! So many
-      librarians have written thank you notes that praised my shows. My two most
-      popular shows are the The Space Roadshow and The BUG Show, The latter two
-      make the best family shows. The other two are Our Endangered Earth and
-      Under the Sea.{` `}
+      rave reviews and have that “wow” factor.
+		</p>
+		<p>
+      After each show, parents and kids tell me that my show was the best
+      library program they ever saw! So many librarians have written thank you
+      notes that praised my shows. My two most popular shows are the The Space
+      Roadshow and The BUG Show, The latter two make the best children’s shows
+      and family shows. The other two shows are Our Endangered Earth and Under
+      the Sea and are better for older kids and their parents. They also make
+      great evening or night adult shows.
 		</p>
 		<p>
       All 4 shows are live programs presented by teacher Lee Ognibene. (Retired
@@ -63,10 +67,18 @@ const LibrariesPage = () =>
       My shows are also very humorous and it’s wonderful to hear both children
       and their parents laughing as they share the wonders of science. I have
       won many awards for my ability to teach and motivate audiences of all
-      ages. It would be my pleasure to perform my shows at your library. Each
-      show is one hour long and is only <strong>$250</strong>.
+      ages. It would be my pleasure to perform my shows at your library.{` `}
+			<strong>
+        Each show is one hour long and is only $250. Only $400 for 2 back to
+        back shows. They can be different shows.
+			</strong>
 		</p>
 		<p>
+			<strong>
+        Note: I moved down to the Carolinas in 2006 but now I’ve moved back to
+        Long Island!
+			</strong>
+			{` `}
       See the Long Island libraries that booked my shows just before I moved:
 		</p>
 		<table>
@@ -136,11 +148,11 @@ const LibrariesPage = () =>
 		<HeaderImage src={galaxyImage} alt="Galaxy" />
 
 		<p>
-      The Space Roadshow is an exciting, interactive astronomy show and a
-      perfect show to book for this year’s library space theme for a “Universe
-      of Books!” This show will take your library patrons on an amazing journey
-      into space. Using a model of the moon and a video camera, they will see a
-      live demonstration that shows why the moon has phases.
+			<strong>The Space Roadshow</strong> is an exciting, interactive astronomy
+      show and a perfect show to book for this year’s library space theme for a
+      “Universe of Books!” This show will take your library patrons on an
+      amazing journey into space. Using a model of the moon and a video camera,
+      they will see a live demonstration that shows why the moon has phases.
 		</p>
 		{` `}
 		{` `}
@@ -151,79 +163,79 @@ const LibrariesPage = () =>
       his telescope and did a famous gravity experiment at the Leaning Tower at
       Pisa. We’ll also visit Meteor Crater in Arizona to see how craters form.
       We’ll visit the Kennedy Space Center to watch a space shuttle launch, and
-      learn how rockets work.
+      learn how rockets work. We’ll see what it’s like to be weightless in the
+      shuttle and the space station. We’ll also go to Hawaii to observe a total
+      eclipse. We’ll travel to the moon and explore the planets in our solar
+      system. We’ll travel to distant stars, and zoom out of our Milky Way
+      galaxy to the end of the universe! We’ll learn about earth’s motions, the
+      moon’s orbit and origin, what causes gravity, what causes day and night,
+      seasons, comets, meteors, the sun, the birth and death of stars, how the
+      dinosaurs became extinct, and our place in space. I even play guitar &
+      sing Twinkle Twinkle Little Star for the little kids. They love it! The
+      finale will take your breath away as we zoom back to Earth at super warp
+      speed! Don’t miss the Space Roadshow! (Kindergarten to Adult){` `}
 		</p>
-		{` `}
-		<p>
-      We’ll see what it’s like to be weightless in the shuttle and the space
-      station. We’ll also go to Hawaii to observe a total eclipse. We’ll travel
-      to the moon and explore the planets in our solar system. We’ll travel to
-      distant stars, and zoom out of our Milky Way galaxy to the end of the
-      universe! We’ll learn about earth’s motions, the moon’s orbit and origin,
-      what causes gravity, what causes day and night, seasons, comets, meteors,
-      the sun, the birth and death of stars, how the dinosaurs became extinct,
-      and our place in space.
-		</p>
-		{` `}
-		<p>
-      I even play guitar & sing Twinkle Twinkle Little Star for the little kids.
-      They love it! The finale will take your breath away as we zoom back to
-      Earth at super warp speed! Don’t miss the Space Roadshow! (Kindergarten to
-      Adult){` `}
-		</p>
+
 		<h4>The Bug Show</h4>
 		<HeaderImage src={butterlyImage} alt="Butterly" />
 
 		<p>
-      A very entertaining show that reveals the secret microscopic world of
-      insects like you’ve never seen them before. We will learn about insect
-      body parts, and how insects go through life cycles- from egg, larva, pupa,
-      to adult. You will see incredible video closeups of many common bugs
-      including ants, houseflies, butterflies, dragonflies, spiders, centipedes,
-      bees, lady bugs, aphids, preying mantis, and termites. You’ll learn how
-      each bug plays an important role to keep nature in balance.
+			<strong>The BUG Show</strong> is a very entertaining show that reveals the
+      secret microscopic world of insects like you’ve never seen them before. We
+      will learn about insect body parts, and how insects go through life
+      cycles- from egg, larva, pupa, to adult. You will see incredible video
+      closeups of many common bugs including ants, houseflies, butterflies,
+      dragonflies, spiders, centipedes, bees, lady bugs, aphids, preying mantis,
+      and termites. You’ll learn how each bug plays an important role to keep
+      nature in balance. For example, bee pollination insures that plants
+      produce flowers that will grow into fruits and vegetables that will
+      provide food and seeds for next years. Creeping with fun, The BUG Show is
+      also very humorous and a great way to learn all about a bug’s life. (There
+      are no live insects to worry about.) After seeing this show, bugs will
+      never be the same! (Good for Pre-K to Adult)
 		</p>
-		<p>
-			{` `}
-      For example, bee pollination insures that plants produce flowers that will
-      grow into fruits and vegetables that will provide food and seeds for next
-      years. Creeping with fun, The BUG Show is also very humorous and a great
-      way to learn all about a bug’s life. (There are no live insects to worry
-      about.) After seeing this show, bugs will never be the same! Who knew bugs
-      could be so interesting and fun to learn about. (Good for Pre-K to Adult)
-		</p>
+
 		<h4>Under the Sea</h4>
 		<HeaderImage src={sharkImage} alt="Shark" />
 
 		<p>
-      will take your library patrons on an amazing field trip to the last
-      frontier- our oceans. We live on Long Island so we all should know about
-      the ocean that surrounds us. This show tells the story of how our oceans
-      formed, how they got salty, the hidden geologic land forms of the ocean
-      floor, continental drift, the ocean food chain and and how man is
-      upsetting the balance of many ecosystems in our oceans. The show will also
-      explain what causes waves, currents, tides, and storms and how they affect
-      the ocean shore. You will learn about different forms of sea life from
-      plankton and coral reefs to whales. After you see Under the Sea, you will
-      understand that oceans are vital to all life on Earth, even ours! (Good
-      for 2nd Grade - Adult)
+			<strong>Under the Sea</strong> will take your library patrons on an
+      amazing field trip to the last frontier- our oceans. We live on Long
+      Island so we all should know about the ocean that surrounds us. This show
+      tells the story of how our oceans formed, how they got salty, the hidden
+      geologic land forms of the ocean floor, continental drift, the ocean food
+      chain and and how man is upsetting the balance of many ecosystems in our
+      oceans. The show will also explain what causes waves, currents, tides, and
+      storms and how they affect the ocean shore. You will learn about different
+      forms of sea life from plankton and coral reefs to whales. After you see
+      Under the Sea, you will understand that oceans are vital to all life on
+      Earth, even ours! (Good for 2nd Grade - Adult)
 		</p>
 		<h4>Our Endangered Earth</h4>
 		<HeaderImage src={earthImage} alt="Earth" />
 
 		<p>
-      An inspiring environmental show that will take your library patrons on
-      video field trips all over the world to demonstrate the many ways man is
-      harming our planet. Earth’s future is in our hands and this show is the
-      first step to understand the issues that endanger life on Earth. The show
-      ends with a hopeful feeling as we explore many ways we can save our
-      beautiful planet. Topics covered: air pollution, acid rain, deforestation,
-      climate change, species extinction, and how man is destroying life in our
-      oceans and in our rain forests. The audience will learn the science behind
-      these problems and many easy solutions all of us can put into practice
-      every day to help keep the Earth’s ecosystems in balance. This show is
-      great any time of the year but is also a perfect way to celebrate Earth
-      Day! (April 22nd )
+			<strong>Our Endangered Earth</strong> is an inspiring environmental show
+      that will take your library patrons on video field trips all over the
+      world to demonstrate the many ways man is harming our planet. Earth’s
+      future is in our hands and this show is the first step to understand the
+      issues that endanger life on Earth. The show ends with a hopeful feeling
+      as we explore many ways we can save our beautiful planet. Topics covered:
+      air pollution, acid rain, deforestation, climate change, species
+      extinction, and how man is destroying life in our oceans and in our rain
+      forests. The audience will learn the science behind these problems and
+      many easy solutions all of us can put into practice every day to help keep
+      the Earth’s ecosystems in balance. This show is great any time of the year
+      but is also a perfect way to celebrate Earth Day! (April 22nd ) (Good for
+      2nd grade to adult)
+		</p>
+		<p>
+			<strong>
+        My fee is only $250 for an hour presentation. (2 back to back shows for
+        only $400. They can be different shows) There is no limit on audience
+        size. Be prepared for a full house and a rush on science books after the
+        show!
+			</strong>
 		</p>
 	</div>
 
