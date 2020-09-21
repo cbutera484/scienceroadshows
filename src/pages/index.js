@@ -10,7 +10,7 @@ const H3 = styled.h3`
   font-weight: normal;
 `;
 
-const HeadShot = styled( Img )`
+const HeadShot = styled(Img)`
   border-radius: 30px;
   background-color: #ccc;
   max-width: 75%;
@@ -22,26 +22,27 @@ const HeadShot = styled( Img )`
   ${media.phone`max-width: 40%;`};
 `;
 
-const IndexPage = () => 
-	<div>
-		<HeadShot src={HeadShotImage} alt="Lee Headshot" />
+const IndexPage = () =>
+  <div>
+    <HeadShot src={HeadShotImage} alt="Lee Headshot" />
 
-		<H3>Science Roadshows</H3>
-		<p>
+    <H3>Science Roadshows</H3>
+    <p>
       Live programs presented for your <strong>School</strong> or{` `}
-			<strong>Library</strong> by teacher Lee Ognibene. (Retired Sayville
-      Planetarium Director and 1998 Suffolk County Science Teacher of the Year).
+      <strong>Library</strong> by teacher Lee Ognibene.   (Retired Sayville
+      Planetarium Director and 1998 Suffolk County Science Teacher of the Year).  <strong>Now available in virtual format as well!</strong>
+    </p><p>
       I wear a theme outfit that fits each show and use a wireless mic with a
       professional sound system for crystal clear sound. My video projector will
       light up your screen with amazing, jaw-dropping video scenes that will
       create the excitement of a live, professional show. Many have said my
-      shows are like a mix of Disney, Bill Nye, and an IMAX movie. My shows are
-      also very humorous and it’s wonderful to hear both children and their
-      parents laughing as they share the wonders of science. I have won many
-      awards for my ability to teach and motivate audiences of all ages.
+      shows are like a mix of Disney, Bill Nye, and an IMAX movie. </p><p>My shows are
+    also very humorous and it’s wonderful to hear both children and their
+    parents laughing as they share the wonders of science. I have won many
+    awards for my ability to teach and motivate audiences of all ages.
 		</p>
-	</div>
+  </div>
 
-;
+  ;
 
 export default IndexPage;

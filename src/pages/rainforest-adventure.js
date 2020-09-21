@@ -3,70 +3,37 @@ import HeaderImage from "../components/header-image";
 import TextImage from "../components/text-image";
 import rainforestImage from "../img/schools/rainforest.jpeg";
 import rainforestParrotImage from "../img/schools/rainforest-parrot.jpg";
-import Fee from "../components/fee";
 import Helmet from "react-helmet";
 
-const RainforestAdventurePage = () => 
-	<div>
-		<Helmet>
-			<title>Rainforest Roadshow by Lee Ognibene</title>
-			<meta
-				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
-			/>
-		</Helmet>
-		<h2>Rainforest Adventure</h2>
-		<HeaderImage src={rainforestImage} alt="Earth" />
-		<p>
-			<a href="/static/pdf/rainforest.pdf">Download Printable Copy</a>
+const RainforestAdventurePage = () =>
+   <div>
+      <Helmet>
+         <title>Rainforest Roadshow by Lee Ognibene</title>
+         <meta
+            name="description"
+            content="Live programs presented for your School or Library by teacher Lee Ognibene."
+         />
+      </Helmet>
+      <h2>Rainforest Adventure</h2>
+      <HeaderImage src={rainforestImage} alt="Earth" />
+      <p>
+         <a href="/static/pdf/rainforest.pdf">Download Printable Copy</a>
+      </p>
+      <p>
+         Your students will absolutely love <strong>Rainforest Adventure</strong>!  You can book it as a <strong>virtual or live show</strong>.  Length: 45 minutes. Perfect for K to 6th grade.  This show is a field trip to the Earth’s incredible rainforests.
 		</p>
-		<p>
-			<strong>RAINFOREST ADVENTURE</strong> is a in-school field trip to the
-      rainforest and comes to your school. This is an amazing natural science
-      show. Outstanding, clear video and sounds of the rainforest will make you
-      feel like you are really there. Live, interactive demonstrations with the
-      audience will introduce the exotic animals and plants of the rainforest.
-      This live show is presented by Lee Ognibene, former life science teacher
-      and Sayville Planetarium Director. (1998 Suffolk County Science Teacher of
-      the Year)
-		</p>
-		<p>
-      This show will help your students understand how valuable the rainforests
-      are to Earth’s ecological health and how they contain hidden treasures
-      such as spices, fruits, coffee, chocolate, precious wood, medicines, and
-      exotic animals & plants. Your students will see the incredible diversity
-      of plants and animals that live at various levels of the rainforest. They
-      will see how man is destroying the rainforests by setting fires and
-      clear-cutting the trees.
-			<TextImage src={rainforestParrotImage} alt="Parrot" />
-		</p>
-		<p>
-      By the end of the show, your students will realize how rainforest plants
-      preserve our air and soil and provide food and shelter for animals. They
-      will also learn how deforestation can harm the environment and the circle
-      of life (ecology). Your students will enjoy participating in a food chain
-      demonstration- a fun way to learn the food chain! They will also learn
-      what each of us can do to save the rainforests.
-		</p>
-		<p>
-      All your school needs to provide is a large room that can be darkened, a
-      table for my projectors, and a large projection screen or white wall. I
-      bring my own powerful video projector, professional sound system and
-      wireless mic. The presentation quality is first rate. I wear a safari
-      outfit to fit the <strong>RAINFOREST ADVENTURE</strong> theme. This is a
-      live show so student participation and questions are welcomed during and
-      after the show.
-		</p>
-		<p>
-			<strong>Show length: one hour.</strong> There is no limit on the number of
-      students who can see a show and that makes it economical, compared to
-      outside field trips with high admission fees and expensive buses. (No
-      worries about bad weather, permission slips, collecting money, etc)
-		</p>
+      <p>The presenter, Lee Ognibene, is an award-winning retired science teacher and videographer who has produced his own professional video to demonstrate the unique plants and animals of the rainforest.  You will see Lee in the video many times as he shows the students the wonders of the rainforest.  It features beautiful Hi-Definition video of the rainforest animals and plants and has a music soundtrack that includes Lee’s narration.  You’ll feel like you were really there in the rainforest!  </p>
+      <p><strong>If you book a VIRTUAL SHOW</strong>, I will send you a link to my streaming service and a one-day password.  Just click the link to my streaming service, put in the password and enjoy the show on your smartboard with your class.  If you don’t have smart boards or laptop computers in every classroom, project the show on a screen in your classroom, cafetorium or media center with a video projector and stream it with a laptop computer using your schools’ Wi-Fi.<br /><strong>Important: Distance-learning students can see it at home during school hours! </strong><br />
+         <strong>Price: $350</strong> for one-day Virtual Shows for the WHOLE School!  Every class can stream the show on that day at all different times!  It’s a bargain!
+  </p>
+      <p><strong>If you book a LIVE SHOW</strong>, I will come to your school and present a <u>live</u> show using my own quality equipment. Same Price: $350 for one live 40 minute showing at your school.  </p>
+      <p><strong>All my shows are approved by all 3 Long Island BOCES Arts in Education programs.
+      They are listed in the online BOCES Arts in Ed catalogs under “Exploratory Enrichment”.
+      To find the Rainforest Adventure show, search keyword “Rainforest” or search “Ognibene” to find all my shows.</strong>
+      </p>
 
-		<Fee />
-	</div>
+   </div>
 
-;
+   ;
 
 export default RainforestAdventurePage;
