@@ -9,7 +9,7 @@ import dinosaurImage from "../img/schools/dinosaur.jpg";
 import styled from "styled-components";
 import Helmet from "react-helmet";
 
-const FlyerImage = styled(Img)`
+const FlyerImage = styled( Img )`
   border-radius: 30px;
   background-color: #ccc;
   max-width: 100%;
@@ -31,7 +31,7 @@ const FlyerLink = styled.a`
   text-decoration: none;
 `;
 
-const SchoolsPage = () =>
+const SchoolsPage = () => 
 	<div>
 		<Helmet>
 			<title>Science Roadshows for schools by Lee Ognibene</title>
@@ -42,8 +42,8 @@ const SchoolsPage = () =>
 		</Helmet>
 		<h2>Shows for Schools</h2>
 		<p>
-			Click below to read more about each show and print out a description to
-			share with your colleagues:
+      Click below to read more about each show and print out a description to
+      share with your colleagues:
 		</p>
 		<div className="row">
 			<div className="six columns">
@@ -58,7 +58,6 @@ const SchoolsPage = () =>
 					<FlyerImage src={spaceImage} alt="Earth" />
 				</FlyerLink>
 			</div>
-
 		</div>
 		<div className="row">
 			<div className="six columns">
@@ -74,7 +73,6 @@ const SchoolsPage = () =>
 					<FlyerImage src={earthImage} alt="Earth" />
 				</FlyerLink>
 			</div>
-
 		</div>
 		<div className="row">
 			<div className="six columns">
@@ -89,10 +87,9 @@ const SchoolsPage = () =>
 					<FlyerImage src={seaImage} alt="Bee" />
 				</FlyerLink>
 			</div>
-
 		</div>
 	</div>
 
-	;
+;
 
 export default SchoolsPage;
