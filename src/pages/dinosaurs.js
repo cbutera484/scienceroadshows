@@ -5,7 +5,7 @@ import dinosaursCometImage from "../img/schools/dinosaurs-comet.jpg";
 import dinosaurImage from "../img/schools/dinosaur.jpg";
 import Helmet from "react-helmet";
 
-const Dinosaurs = () => 
+const Dinosaurs = () =>
 	<div>
 		<Helmet>
 			<title>Dinosaurs Roadshow by Lee Ognibene</title>
@@ -18,7 +18,7 @@ const Dinosaurs = () =>
 		<h2>Dinosaurs</h2>
 		<HeaderImage src={dinosaurImage} alt="Earth" />
 		<p>
-			<a href="/static/pdf/space-roadshow.pdf">Download Printable Copy</a>
+			<a href="/static/pdf/dinosaur.pdf">Download Printable Copy</a>
 		</p>
 		<p>
 			<strong>&ldquo;Dinosaurs&rdquo;</strong> is an exciting 40 minute video
@@ -28,12 +28,12 @@ const Dinosaurs = () =>
       entertaining!
 		</p>
 		<p>
-      This high definition video will show your students how fossils form and
-      how paleontologists find dinosaur fossils to make dino skeletons.&nbsp;
-      The show reveals the secrets of how dinosaurs lived and how they suddenly
-      became extinct 66 million years ago. &nbsp;This STEM program teaches many
-      important scientific principles of biology, earth science, and
-      environmental science.
+			This high definition video will show your students how fossils form and
+			how paleontologists find dinosaur fossils to make dino skeletons.&nbsp;
+			The show reveals the secrets of how dinosaurs lived and how they suddenly
+			became extinct 66 million years ago. &nbsp;This STEM program teaches many
+			important scientific principles of biology, earth science, and
+			environmental science.
 		</p>
 		<p>
 			<strong>Dinosaurs</strong> was produced by Lee Ognibene, former Director
@@ -44,13 +44,13 @@ const Dinosaurs = () =>
 			<TextImage src={dinosaursCometImage} alt="Earth" />
 		</p>
 		<p>
-      It will take your students back in time to a prehistoric Earth ruled by
-      dinosaurs.&nbsp; It&rsquo;s not scary and many parts are actually
+			It will take your students back in time to a prehistoric Earth ruled by
+			dinosaurs.&nbsp; It&rsquo;s not scary and many parts are actually
       funny!&nbsp; Your students will <u>love</u> this show!
 		</p>
 		<p>
 			<u>
-        If you book a <strong>VIRTUAL SHOW</strong>
+				If you book a <strong>VIRTUAL SHOW</strong>
 			</u>, I will send you a link to my streaming service and a one-day
       password.&nbsp; Just click the link to my streaming service, put in the
       password and enjoy the show on your smartboard with your class.&nbsp;{` `}
@@ -67,7 +67,7 @@ const Dinosaurs = () =>
 		</p>
 		<p>
 			<u>
-        If you book a <strong>LIVE SHOW</strong>
+				If you book a <strong>LIVE SHOW</strong>
 			</u>, I will come to your school and present a <u>live</u> show using my
       own laptop, my bright video projector, wireless mic, and quality sound
       system.&nbsp;
@@ -81,26 +81,26 @@ const Dinosaurs = () =>
 
 		<p>
 			<strong>
-        All my shows are <u>approved</u> by all 3 Long Island BOCES Arts in
+				All my shows are <u>approved</u> by all 3 Long Island BOCES Arts in
         Education programs.&nbsp;{` `}
 			</strong>
 		</p>
 		<p>
 			<strong>
-        They are listed in the online BOCES Arts in Ed catalogs under &ldquo;<u>
-          Exploratory Enrichment
+				They are listed in the online BOCES Arts in Ed catalogs under &ldquo;<u>
+					Exploratory Enrichment
 				</u>&rdquo;.&nbsp;{` `}
 			</strong>
 		</p>
 		<p>
 			<strong>
-        To find the <u>Dinosaurs</u> show, search keyword
+				To find the <u>Dinosaurs</u> show, search keyword
         &ldquo;Dinosaurs&rdquo; or &ldquo;Ognibene&rdquo; to find <u>all</u> my
         shows.&nbsp;{` `}
 			</strong>
 		</p>
 	</div>
 
-;
+	;
 
 export default Dinosaurs;
