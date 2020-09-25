@@ -10,7 +10,7 @@ const H3 = styled.h3`
   font-weight: normal;
 `;
 
-const HeadShot = styled( Img )`
+const HeadShot = styled(Img)`
   border-radius: 30px;
   background-color: #ccc;
   max-width: 75%;
@@ -22,32 +22,20 @@ const HeadShot = styled( Img )`
   ${media.phone`max-width: 40%;`};
 `;
 
-const IndexPage = () => 
-	<div>
-		<HeadShot src={HeadShotImage} alt="Lee Headshot" />
+const IndexPage = () =>
+  <div>
+    <HeadShot src={HeadShotImage} alt="Lee Headshot" />
 
-		<H3>Science Roadshows</H3>
-		<p>
-      Live programs presented for your <strong>School</strong> or{` `}
-			<strong>Library</strong> by teacher Lee Ognibene. (Retired Sayville
-      Planetarium Director and 1998 Suffolk County Science Teacher of the Year).{` `}
-			<strong>Now available in virtual format as well!</strong>
-		</p>
-		<p>
-      I wear a theme outfit that fits each show and use a wireless mic with a
-      professional sound system for crystal clear sound. My video projector will
-      light up your screen with amazing, jaw-dropping video scenes that will
-      create the excitement of a live, professional show. Many have said my
-      shows are like a mix of Disney, Bill Nye, and an IMAX movie.{` `}
-		</p>
-		<p>
-      My shows are also very humorous and it’s wonderful to hear both children
-      and their parents laughing as they share the wonders of science. I have
-      won many awards for my ability to teach and motivate audiences of all
-      ages.
-		</p>
-	</div>
 
-;
+    <h4>SIX VIRTUAL OR LIVE SCIENCE SHOWS
+    FOR YOUR SCHOOL OR LIBRARY! </h4>
+
+    <p> My name is Lee Ognibene and I am an award-winning retired science teacher and videographer.  Every one of my 6 shows features amazing hi-definition video and a music soundtrack with my narration.  What a wonderful way to cover your science curriculum as your kids learn about rainforests, outer space, the oceans, the world of bugs, dinosaurs, and Earth’s endangered environment.  The shows are not only educational, they are fun to watch!  (40-45 min long)</p>
+    <p>I’ve been shooting video all over the world for these 6 shows for the last 18 years and your kids will love them!  To get details on each show, click on “school” or “library” above and read about them.  You can also print out show flyers to show your colleagues.</p>
+    <p>With Covid 19, all of my bookings have been virtual lately.  When Covid is over, I will resume presenting live and virtual shows at schools and libraries.  My shows are the best science shows on Long Island and are approved by all 3 BOCES Arts in Education programs.</p>
+    <p>Feel free to email me with any questions: <a href="mailto: spaceroadshow@yahoo.com">spaceroadshow@yahoo.com</a>.  Expect rave reviews!</p>
+  </div >
+
+  ;
 
 export default IndexPage;
