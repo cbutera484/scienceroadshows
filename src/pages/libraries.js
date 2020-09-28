@@ -11,7 +11,7 @@ import media from "../utils/style-utils";
 import HeadShotImage from "../img/lee.jpg";
 import Helmet from "react-helmet";
 
-const HeadShot = styled(Img)`
+const HeadShot = styled( Img )`
   border-radius: 30px;
   background-color: #ccc;
   max-width: 75%;
@@ -23,7 +23,7 @@ const HeadShot = styled(Img)`
   ${media.phone`max-width: 40%; margin-bottom: 20px;`};
 `;
 
-const LibrariesPage = () =>
+const LibrariesPage = () => 
 	<div>
 		<Helmet>
 			<title>Science Roadshows for your library by Lee Ognibene</title>
@@ -50,7 +50,7 @@ const LibrariesPage = () =>
       factor.
 		</p>
 		<p>
-			After each show, parents and kids tell me that my show was the best
+      After each show, parents and kids tell me that my show was the best
       library program they ever saw! <strong>&nbsp;</strong>So many librarians
       have written thank you notes that praised my shows.&nbsp; My 3 most
       popular shows are the{` `}
@@ -74,7 +74,7 @@ const LibrariesPage = () =>
 			</strong>
 		</p>
 		<p>
-			All 6 shows can be streamed or presented{` `}
+      All 6 shows can be streamed or presented{` `}
 			<u>live in your presentation room</u>.&nbsp; These shows were produced by
       Lee Ognibene, retired science teacher and videographer. (Former Sayville
       Planetarium Director and 1998 Suffolk County Science Teacher of the
@@ -110,12 +110,12 @@ const LibrariesPage = () =>
       activity.&nbsp; Parents love it too!
 		</p>
 		<p>
-			I provide live narration throughout the show as we take video field trips
-			to Venice, Italy, where Galileo first used his telescope and did a famous
-			gravity experiment at the Leaning Tower of Pisa.&nbsp; We&rsquo;ll also
-			visit Meteor Crater in Arizona where I will report how that crater
-			formed.&nbsp; We&rsquo;ll visit the Kennedy Space Center to watch a rocket
-			launch and do a demonstration to learn how rockets work.&nbsp;
+      I provide live narration throughout the show as we take video field trips
+      to Venice, Italy, where Galileo first used his telescope and did a famous
+      gravity experiment at the Leaning Tower of Pisa.&nbsp; We&rsquo;ll also
+      visit Meteor Crater in Arizona where I will report how that crater
+      formed.&nbsp; We&rsquo;ll visit the Kennedy Space Center to watch a rocket
+      launch and do a demonstration to learn how rockets work.&nbsp;
 		</p>
 		<p>
 			{` `}
@@ -198,31 +198,31 @@ const LibrariesPage = () =>
       This show is a field trip to the Earth&rsquo;s incredible rainforests.
 		</p>
 		<p>
-			The presenter, Lee Ognibene, is an award-winning retired science teacher
-			and videographer who has produced his own professional video to
-			demonstrate the unique plants and animals of the rainforest.&nbsp; You
-			will see Lee in the video many times as he shows the students the wonders
-			of the rainforest.&nbsp; It features beautiful Hi-Definition video of the
-			rainforest animals and plants and has a music soundtrack that includes
-			Lee&rsquo;s narration.&nbsp; You&rsquo;ll feel like you were really there
-			in the rainforest!&nbsp;
+      The presenter, Lee Ognibene, is an award-winning retired science teacher
+      and videographer who has produced his own professional video to
+      demonstrate the unique plants and animals of the rainforest.&nbsp; You
+      will see Lee in the video many times as he shows the students the wonders
+      of the rainforest.&nbsp; It features beautiful Hi-Definition video of the
+      rainforest animals and plants and has a music soundtrack that includes
+      Lee&rsquo;s narration.&nbsp; You&rsquo;ll feel like you were really there
+      in the rainforest!&nbsp;
 		</p>
 		<p>
-			Your patrons will learn how climate change, loggers and hunters are
-			harming the rainforest&rsquo;s exotic plants and animals (deforestation
-			and species extinction).&nbsp; The show also explains the many life cycles
-			and energy cycles that make the rainforest a unique environment that act
-			like the &ldquo;lungs of the Earth.&rdquo;&nbsp; The show includes an
-			interactive activity where students will be challenged to decide which
-			rainforest animals depend on each other for food- (the food chain).
-			&nbsp;Expect rave reviews!&nbsp;
+      Your patrons will learn how climate change, loggers and hunters are
+      harming the rainforest&rsquo;s exotic plants and animals (deforestation
+      and species extinction).&nbsp; The show also explains the many life cycles
+      and energy cycles that make the rainforest a unique environment that act
+      like the &ldquo;lungs of the Earth.&rdquo;&nbsp; The show includes an
+      interactive activity where students will be challenged to decide which
+      rainforest animals depend on each other for food- (the food chain).
+      &nbsp;Expect rave reviews!&nbsp;
 		</p>
 
 		<h4>Under the Sea</h4>
 		<HeaderImage src={sharkImage} alt="Shark" />
 
 		<p>
-			Whether <strong>virtual or live</strong>, this show will take your library
+      Whether <strong>virtual or live</strong>, this show will take your library
       patrons on an amazing field trip to the last frontier- our oceans.&nbsp;
       We live on Long Island so we should all know about the ocean that
       surrounds us.&nbsp; This <strong>virtual or live show</strong> tells the
@@ -236,7 +236,7 @@ const LibrariesPage = () =>
 				<u> Under the Sea</u>
 			</strong>, you will understand that oceans are vital to{` `}
 			<strong>all</strong> life on Earth, even ours!&nbsp; (Good for 2<sup>
-				nd
+        nd
 			</sup>
 			{` `}
       Grade - Adult)
@@ -266,11 +266,11 @@ const LibrariesPage = () =>
       every day to help keep the Earth&rsquo;s ecosystems in balance.
 		</p>
 		<p>
-			The show ends with a hopeful feeling as we explore many ways we can save
+      The show ends with a hopeful feeling as we explore many ways we can save
       our beautiful planet.{` `}
 			<u>
-				This show is great any time of the year but is also a perfect way to
-				celebrate
+        This show is great any time of the year but is also a perfect way to
+        celebrate
 			</u>
 			{` `}
 			<strong>
@@ -282,14 +282,14 @@ const LibrariesPage = () =>
 		</p>
 		<p>
 			<strong>
-				My fee is only $250 for an hour presentation. (2 back to back shows for
-				only $400. They can be different shows) There is no limit on audience
-				size. Be prepared for a full house and a rush on science books after the
-				show!
+        My fee is only $250 for an hour presentation. (2 back to back shows for
+        only $400. They can be different shows) There is no limit on audience
+        size. Be prepared for a full house and a rush on science books after the
+        show!
 			</strong>
 		</p>
 	</div>
 
-	;
+;
 
 export default LibrariesPage;
