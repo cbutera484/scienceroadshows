@@ -34,7 +34,7 @@ const FlyerLink = styled.a`
 const SchoolsPage = () => 
 	<div>
 		<Helmet>
-			<title>Science Roadshows for schools by Lee Ognibene</title>
+			<title>Virtual and Live Science Roadshows for schools by Lee Ognibene</title>
 			<meta
 				name="description"
 				content="Live programs presented for your School or Library by teacher Lee Ognibene."

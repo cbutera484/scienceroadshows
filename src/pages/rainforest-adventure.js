@@ -9,7 +9,7 @@ const RainforestAdventurePage = () =>
 			<title>Rainforest Roadshow by Lee Ognibene</title>
 			<meta
 				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+				content="Live and Virtual programs presented for your School or Library by teacher Lee Ognibene."
 			/>
 		</Helmet>
 		<h2>Rainforest Adventure</h2>

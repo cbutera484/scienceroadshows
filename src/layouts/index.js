@@ -18,11 +18,11 @@ const TemplateWrapper = ({ children }) =>
 			meta={[
 				{
 					name: `description`,
-					content: `Live programs presented for your School or Library by teacher Lee Ognibene. `
+					content: `Virtual and Live programs presented for your School or Library by teacher Lee Ognibene. `
 				},
 				{
 					name: `keywords`,
-					content: `science, roadshow, space, forest, rain, teacher, earth, school, library, sea, rainforest, bugs, bee, shark`
+					content: `virtual, live, show, science, roadshow, space, forest, rain, teacher, earth, school, library, sea, rainforest, bugs, bee, shark`
 				},
 				{
 					name: `google-site-verification`,

@@ -11,7 +11,7 @@ const Dinosaurs = () =>
 			<title>Dinosaurs Roadshow by Lee Ognibene</title>
 			<meta
 				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+				content="Live and Virtual programs presented for your School or Library by teacher Lee Ognibene."
 			/>
 		</Helmet>
 

@@ -11,7 +11,7 @@ const UnderTheSeaPage = () =>
 			<title>Under the Sea Roadshow by Lee Ognibene</title>
 			<meta
 				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+				content="Live and Virtual programs presented for your School or Library by teacher Lee Ognibene."
 			/>
 		</Helmet>
 		<h2>Under The Sea</h2>

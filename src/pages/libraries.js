@@ -29,7 +29,7 @@ const LibrariesPage = () =>
 			<title>Science Roadshows for your library by Lee Ognibene</title>
 			<meta
 				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+				content="Live and Virtual programs presented for your School or Library by teacher Lee Ognibene."
 			/>
 		</Helmet>
 		<h2>6 Great Shows for your Library</h2>

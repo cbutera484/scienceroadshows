@@ -11,7 +11,7 @@ const SpaceRoadshowPage = () =>
 			<title>Space Roadshow by Lee Ognibene</title>
 			<meta
 				name="description"
-				content="Live programs presented for your School or Library by teacher Lee Ognibene."
+				content="Virtual and Live programs presented for your School or Library by teacher Lee Ognibene."
 			/>
 		</Helmet>
 
