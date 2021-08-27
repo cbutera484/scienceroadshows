@@ -87,7 +87,7 @@ const UnderTheSeaPage = () =>
 		</p>
 		<p>
 			<strong>
-        All my shows are approved by all 3 Long Island BOCES Arts in Education
+        All my shows are accepted by all 3 Long Island BOCES Arts in Education
         programs. They are listed in the online BOCES Arts in Ed catalogs under
         “Exploratory Enrichment”. To find <u>Under the Sea</u>, search keyword
         the title or “oceanography” or search “Ognibene” to find all my shows.{` `}

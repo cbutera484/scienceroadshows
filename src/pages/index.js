@@ -42,7 +42,7 @@ const IndexPage = () =>
       With Covid 19, all of my bookings have been virtual lately. When Covid is
       over, I will resume presenting live and virtual shows at schools and
       libraries. My shows are the best science shows on Long Island and are
-      approved by all 3 BOCES Arts in Education programs.
+      accepted by all 3 BOCES Arts in Education programs.
 		</p>
 		<p>
       Feel free to email me with any questions:{` `}

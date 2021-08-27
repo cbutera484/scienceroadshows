@@ -81,7 +81,7 @@ const Dinosaurs = () =>
 
 		<p>
 			<strong>
-        All my shows are <u>approved</u> by all 3 Long Island BOCES Arts in
+        All my shows are <u>accepted</u> by all 3 Long Island BOCES Arts in
         Education programs.&nbsp;{` `}
 			</strong>
 		</p>

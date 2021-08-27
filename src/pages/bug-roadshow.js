@@ -80,7 +80,7 @@ const BugPage = () =>
 		</p>
 		<p>
 			<strong>
-        All my shows are <u>approved</u> by all 3 Long Island BOCES Arts in
+        All my shows are <u>accepted</u> by all 3 Long Island BOCES Arts in
         Education programs. They are listed in the online BOCES Arts in Ed
         catalogs under <u>“Exploratory Enrichment”</u>. To find the Bug show,
         search keywords “insect” or “Bug” or “Ognibene” to find all my shows.

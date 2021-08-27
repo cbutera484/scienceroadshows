@@ -87,7 +87,7 @@ const EndangeredEarthPage = () =>
 		</p>
 		<p>
 			<strong>
-        All my shows are approved by all 3 Long Island BOCES Arts in Education
+        All my shows are accepted by all 3 Long Island BOCES Arts in Education
         programs. They are listed in the online BOCES Arts in Ed catalogs under
         “<u>Exploratory Enrichment</u>”. To find <u>Our Endangered Earth</u> in
         the online catalog, search keywords “Our Endangered Earth”,
